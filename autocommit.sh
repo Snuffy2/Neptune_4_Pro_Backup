@@ -14,7 +14,7 @@
 config_folder=~/printer_data/config
 
 # NOTE: The above should work for just about everyone, but a somewhat
-# recent update to moonraker changed paths, etc. You can run the 
+# recent update to moonraker changed paths, etc. You can run the
 # provided moonraker script 'data-path-fix.sh' to fix/update
 # older installs
 
@@ -73,6 +73,7 @@ grab_version(){
 
 push_config(){
   cd $config_folder
+  git checkout $branch
   git pull origin $branch --no-rebase
   git add .
   current_date=$(date +"%Y-%m-%d %T")
@@ -82,4 +83,3 @@ push_config(){
 
 grab_version
 push_config
-
