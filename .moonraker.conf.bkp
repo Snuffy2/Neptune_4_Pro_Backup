@@ -35,6 +35,27 @@ log_path = /home/mks/klipper_logs
 
 [history]
 
+[timelapse]
+enabled = True
+mode = layermacro
+snapshoturl = http://localhost/webcam/?action=snapshot
+autorender = True
+constant_rate_factor = 23
+output_framerate = 30
+variable_fps = False
+flip_x = False
+flip_y = True
+duplicatelastframe = 10
+previewimage = True
+saveframes = True
+
 [update_manager]
 enable_auto_refresh = True
+
+[update_manager timelapse]
+type = git_repo
+primary_branch = main
+path = ~/moonraker-timelapse
+origin = https://github.com/mainsail-crew/moonraker-timelapse.git
+managed_services = klipper moonraker
 
