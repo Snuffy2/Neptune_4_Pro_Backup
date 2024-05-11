@@ -1264,3 +1264,8 @@ b"dpkg-query: package 'janus' is not installed\nUse dpkg --contents (= dpkg-deb 
 2024-05-10 01:34:30,499      INFO  obico.app - detected state change: Printing -> Operational
 2024-05-10 01:34:30,501      INFO  obico.app - print event: PrintDone (1715307616)
 2024-05-10 22:37:13,682   WARNING  obico.ws - WS Closed - 1000 - 
+2024-05-11 09:44:37,415   WARNING  obico.ws - WS Closed - None - None
+2024-05-11 09:44:44,010   WARNING  obico.ws - WS Closed - None - None
+2024-05-11 09:46:44,177   WARNING  obico.server_conn - Not connected to websocket server after 120s
+2024-05-11 09:46:44,178     ERROR  obico.utils - Attempt 1 - backing off 0.133520 seconds: Not connected to websocket server after 120s
+2024-05-11 11:04:55,101   WARNING  obico.ws - WS Closed - None - None
