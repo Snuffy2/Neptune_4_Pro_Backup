@@ -1693,3 +1693,17 @@ b"dpkg-query: package 'janus' is not installed\nUse dpkg --contents (= dpkg-deb 
 2024-05-16 21:42:53,120   WARNING  obico.server_conn - Not connected to websocket server after 120s
 2024-05-16 21:42:53,121     ERROR  obico.utils - Attempt 1 - backing off 0.151844 seconds: Not connected to websocket server after 120s
 2024-05-17 15:56:46,085   WARNING  obico.ws - WS Closed - None - None
+2024-05-17 20:13:40,209   WARNING  obico.ws - WS Closed - None - None
+2024-05-17 20:14:32,767   WARNING  obico.ws - WS Closed - None - None
+2024-05-17 20:16:02,271   WARNING  obico.server_conn - Not connected to websocket server after 120s
+2024-05-17 20:16:02,272     ERROR  obico.utils - Attempt 1 - backing off 0.192907 seconds: Not connected to websocket server after 120s
+2024-05-17 20:16:32,929   WARNING  obico.ws - WS Closed - None - None
+2024-05-17 20:18:02,992   WARNING  obico.server_conn - Not connected to websocket server after 120s
+2024-05-17 20:18:02,994     ERROR  obico.utils - Attempt 2 - backing off 0.616865 seconds: Not connected to websocket server after 120s
+2024-05-17 20:18:34,308   WARNING  obico.ws - WS Closed - None - None
+2024-05-17 20:20:04,155   WARNING  obico.server_conn - Not connected to websocket server after 120s
+2024-05-17 20:20:04,156     ERROR  obico.utils - Attempt 3 - backing off 1.063646 seconds: Not connected to websocket server after 120s
+2024-05-17 20:20:35,685   WARNING  obico.ws - WS Closed - None - None
+2024-05-17 20:22:05,761   WARNING  obico.server_conn - Not connected to websocket server after 120s
+2024-05-17 20:22:05,762     ERROR  obico.utils - Attempt 4 - backing off 1.471046 seconds: Not connected to websocket server after 120s
+2024-05-17 22:11:31,956   WARNING  obico.ws - WS Closed - None - None
