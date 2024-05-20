@@ -1709,3 +1709,5 @@ b"dpkg-query: package 'janus' is not installed\nUse dpkg --contents (= dpkg-deb 
 2024-05-17 22:11:31,956   WARNING  obico.ws - WS Closed - None - None
 2024-05-18 22:11:35,885   WARNING  obico.ws - WS Closed - 1000 - 
 2024-05-19 17:56:02,045   WARNING  obico.ws - WS Closed - None - None
+2024-05-20 03:01:09,105   WARNING  obico.ws - WS Closed - None - None
+2024-05-20 04:46:09,002   WARNING  obico.ws - WS Closed - None - None
