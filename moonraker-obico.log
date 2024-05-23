@@ -2782,3 +2782,20 @@ b"dpkg-query: package 'janus' is not installed\nUse dpkg --contents (= dpkg-deb 
 2024-05-22 09:19:13,428   WARNING  obico.server_conn - Server message queue is full, msg dropped
 2024-05-22 09:19:43,258   WARNING  obico.server_conn - Server message queue is full, msg dropped
 2024-05-22 09:20:13,339   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-22 21:05:30,563   WARNING  obico.ws - WS Closed - None - None
+2024-05-22 21:06:31,404   WARNING  obico.ws - WS Closed - None - None
+2024-05-22 21:08:00,475   WARNING  obico.server_conn - Not connected to websocket server after 120s
+2024-05-22 21:08:00,476     ERROR  obico.utils - Attempt 1 - backing off 0.223252 seconds: Not connected to websocket server after 120s
+2024-05-22 21:09:52,891   WARNING  obico.ws - WS Closed - None - None
+2024-05-22 21:10:02,011   WARNING  obico.ws - WS Closed - None - None
+2024-05-22 21:12:00,256   WARNING  obico.server_conn - Not connected to websocket server after 120s
+2024-05-22 21:12:00,257     ERROR  obico.utils - Attempt 1 - backing off 0.278319 seconds: Not connected to websocket server after 120s
+2024-05-22 21:12:00,551   WARNING  obico.ws - WS Closed - None - None
+2024-05-22 21:14:00,792   WARNING  obico.server_conn - Not connected to websocket server after 120s
+2024-05-22 21:14:00,793     ERROR  obico.utils - Attempt 2 - backing off 0.695767 seconds: Not connected to websocket server after 120s
+2024-05-22 21:14:01,504   WARNING  obico.ws - WS Closed - None - None
+2024-05-22 21:16:01,757   WARNING  obico.server_conn - Not connected to websocket server after 120s
+2024-05-22 21:16:01,758     ERROR  obico.utils - Attempt 3 - backing off 1.214652 seconds: Not connected to websocket server after 120s
+2024-05-22 21:16:02,993   WARNING  obico.ws - WS Closed - None - None
+2024-05-22 21:18:03,437   WARNING  obico.server_conn - Not connected to websocket server after 120s
+2024-05-22 21:18:03,438     ERROR  obico.utils - Attempt 4 - backing off 2.291548 seconds: Not connected to websocket server after 120s
