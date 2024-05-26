@@ -2820,3 +2820,62 @@ b"dpkg-query: package 'janus' is not installed\nUse dpkg --contents (= dpkg-deb 
 2024-05-24 22:26:52,225      INFO  obico.app - print event: PrintStarted (1716604011)
 2024-05-25 00:50:55,568      INFO  obico.app - detected state change: Printing -> Operational
 2024-05-25 00:50:55,570      INFO  obico.app - print event: PrintDone (1716604011)
+2024-05-25 21:05:23,128   WARNING  obico.ws - WS Closed - 1000 - 
+2024-05-25 22:35:23,235      INFO  backoff - Backing off capture_jpeg(...) for 0.8s (AttributeError: 'ServerConn' object has no attribute 'snapshot_url')
+2024-05-25 22:35:24,040      INFO  backoff - Backing off capture_jpeg(...) for 1.0s (AttributeError: 'ServerConn' object has no attribute 'snapshot_url')
+2024-05-25 22:35:25,075     ERROR  backoff - Giving up capture_jpeg(...) after 3 tries (AttributeError: 'ServerConn' object has no attribute 'snapshot_url')
+2024-05-25 22:35:25,077   WARNING  obico.server_conn - Failed to capture jpeg - 'ServerConn' object has no attribute 'snapshot_url'
+2024-05-25 22:39:19,776      INFO  obico.app - detected state change: Operational -> Printing
+2024-05-25 22:39:20,343      INFO  obico.app - print event: PrintStarted (1716691159)
+2024-05-25 22:40:33,979      INFO  obico.app - detected state change: Printing -> Operational
+2024-05-25 22:40:33,982     ERROR  obico.app - unexpected state "standby", please report.
+2024-05-25 22:40:58,556      INFO  obico.app - detected state change: Operational -> Printing
+2024-05-25 22:40:59,145      INFO  obico.app - print event: PrintStarted (1716691258)
+2024-05-25 22:52:06,144      INFO  obico.app - detected state change: Printing -> Operational
+2024-05-25 22:52:06,149      INFO  obico.app - print event: PrintFailed (1716691258)
+2024-05-25 22:17:16,798   WARNING  obico.moonraker_conn - api key is unset, trying to fetch one
+2024-05-25 22:17:16,955      INFO  backoff - Backing off ensure_api_key(...) for 0.9s (requests.exceptions.ConnectionError: HTTPConnectionPool(host='10.100.100.35', port=7125): Max retries exceeded with url: /access/api_key (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9d287850>: Failed to establish a new connection: [Errno 101] Network is unreachable')))
+2024-05-25 22:17:17,829   WARNING  obico.moonraker_conn - api key is unset, trying to fetch one
+2024-05-25 22:17:17,849      INFO  backoff - Backing off ensure_api_key(...) for 0.0s (requests.exceptions.ConnectionError: HTTPConnectionPool(host='10.100.100.35', port=7125): Max retries exceeded with url: /access/api_key (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9cce0d10>: Failed to establish a new connection: [Errno 101] Network is unreachable')))
+2024-05-25 22:17:17,880   WARNING  obico.moonraker_conn - api key is unset, trying to fetch one
+2024-05-25 22:17:17,895      INFO  backoff - Backing off ensure_api_key(...) for 0.6s (requests.exceptions.ConnectionError: HTTPConnectionPool(host='10.100.100.35', port=7125): Max retries exceeded with url: /access/api_key (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9cce2990>: Failed to establish a new connection: [Errno 101] Network is unreachable')))
+2024-05-25 22:17:18,469   WARNING  obico.moonraker_conn - api key is unset, trying to fetch one
+2024-05-25 22:17:18,489      INFO  backoff - Backing off ensure_api_key(...) for 5.4s (requests.exceptions.ConnectionError: HTTPConnectionPool(host='10.100.100.35', port=7125): Max retries exceeded with url: /access/api_key (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9ccec9d0>: Failed to establish a new connection: [Errno 101] Network is unreachable')))
+2024-05-25 22:17:23,859   WARNING  obico.moonraker_conn - api key is unset, trying to fetch one
+2024-05-25 22:17:23,895      INFO  obico.moonraker_conn - connection is open
+2024-05-25 22:17:23,981      INFO  obico.moonraker_conn - Klippy ready
+2024-05-25 22:17:24,172      INFO  obico.app - Fetching linked printer...
+2024-05-25 22:17:24,796      INFO  obico.app - Linked printer: {'is_pro': True, 'id': 1, 'name': 'Neptune 4 Pro', 'retract_on_pause': 6.5}
+2024-05-25 22:17:24,807   WARNING  obico.app - Connections not ready. Trying again in 1s...
+2024-05-25 22:17:25,905   WARNING  obico.app - error response from moonraker, Event(name='message', data={'jsonrpc': '2.0', 'error': {'code': 400, 'message': 'Invalid argument'}, 'id': 83025}, sender='moonrakerconn')
+2024-05-25 22:17:25,923      INFO  obico.app - detected state change: Offline -> Operational
+2024-05-25 22:17:25,915      INFO  obico.janus - Starting webcam streamer
+2024-05-25 22:17:25,936      INFO  obico.webcam_stream - Not on a Raspberry Pi. Switching to MJPEG streaming
+2024-05-25 22:17:26,497   WARNING  obico.nozzlecam - Exception in build nozzle config. First Layer AI disabled.
+2024-05-25 23:06:40,760   WARNING  obico.moonraker_conn - api key is unset, trying to fetch one
+2024-05-25 23:06:40,847      INFO  backoff - Backing off ensure_api_key(...) for 0.3s (requests.exceptions.ConnectionError: HTTPConnectionPool(host='10.100.100.35', port=7125): Max retries exceeded with url: /access/api_key (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff8f939bd0>: Failed to establish a new connection: [Errno 101] Network is unreachable')))
+2024-05-25 23:06:41,157   WARNING  obico.moonraker_conn - api key is unset, trying to fetch one
+2024-05-25 23:06:41,172      INFO  backoff - Backing off ensure_api_key(...) for 1.8s (requests.exceptions.ConnectionError: HTTPConnectionPool(host='10.100.100.35', port=7125): Max retries exceeded with url: /access/api_key (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff8f9a4dd0>: Failed to establish a new connection: [Errno 101] Network is unreachable')))
+2024-05-25 23:06:42,963   WARNING  obico.moonraker_conn - api key is unset, trying to fetch one
+2024-05-25 23:06:42,987      INFO  backoff - Backing off ensure_api_key(...) for 0.1s (requests.exceptions.ConnectionError: HTTPConnectionPool(host='10.100.100.35', port=7125): Max retries exceeded with url: /access/api_key (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff8f9a6a50>: Failed to establish a new connection: [Errno 101] Network is unreachable')))
+2024-05-25 23:06:43,063   WARNING  obico.moonraker_conn - api key is unset, trying to fetch one
+2024-05-25 23:06:43,087      INFO  backoff - Backing off ensure_api_key(...) for 5.2s (requests.exceptions.ConnectionError: HTTPConnectionPool(host='10.100.100.35', port=7125): Max retries exceeded with url: /access/api_key (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff8f9b0ad0>: Failed to establish a new connection: [Errno 101] Network is unreachable')))
+2024-05-25 23:06:48,337   WARNING  obico.moonraker_conn - api key is unset, trying to fetch one
+2024-05-25 23:06:48,373      INFO  obico.moonraker_conn - connection is open
+2024-05-25 23:06:48,443      INFO  obico.app - Fetching linked printer...
+2024-05-25 23:06:48,459      INFO  obico.moonraker_conn - Klippy ready
+2024-05-25 23:06:48,988      INFO  obico.app - Linked printer: {'is_pro': True, 'id': 1, 'name': 'Neptune 4 Pro', 'retract_on_pause': 6.5}
+2024-05-25 23:06:48,995   WARNING  obico.app - Connections not ready. Trying again in 1s...
+2024-05-25 23:07:37,766   WARNING  obico.app - error response from moonraker, Event(name='message', data={'jsonrpc': '2.0', 'error': {'code': 400, 'message': 'Invalid argument'}, 'id': 31497}, sender='moonrakerconn')
+2024-05-25 23:07:37,771      INFO  obico.app - detected state change: Offline -> Operational
+2024-05-25 23:07:37,783      INFO  obico.janus - Starting webcam streamer
+2024-05-25 23:07:37,799      INFO  obico.webcam_stream - Not on a Raspberry Pi. Switching to MJPEG streaming
+2024-05-25 23:07:38,383   WARNING  obico.nozzlecam - Exception in build nozzle config. First Layer AI disabled.
+2024-05-25 23:13:39,439      INFO  obico.app - detected state change: Operational -> Printing
+2024-05-25 23:13:40,182      INFO  obico.app - print event: PrintStarted (1716693219)
+2024-05-25 23:32:10,538      INFO  obico.app - detected state change: Printing -> Paused
+2024-05-25 23:32:10,540      INFO  obico.app - print event: PrintPaused (1716693219)
+2024-05-25 23:33:40,540      INFO  obico.app - detected state change: Paused -> Printing
+2024-05-25 23:33:40,541      INFO  obico.app - print event: PrintResumed (1716693219)
+2024-05-25 23:35:24,104      INFO  obico.app - detected state change: Printing -> Operational
+2024-05-25 23:35:24,105      INFO  obico.app - print event: PrintDone (1716693219)
