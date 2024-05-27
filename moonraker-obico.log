@@ -3248,3 +3248,311 @@ b"dpkg-query: package 'janus' is not installed\nUse dpkg --contents (= dpkg-deb 
 2024-05-26 08:44:35,768      INFO  obico.app - detected state change: Offline -> Operational
 2024-05-26 08:57:27,528   WARNING  obico.ws - WS Closed - None - None
 2024-05-26 09:38:13,759   WARNING  obico.ws - WS Closed - None - None
+2024-05-26 20:37:56,069   WARNING  obico.ws - WS Closed - None - None
+2024-05-26 20:38:34,981   WARNING  obico.ws - WS Closed - None - None
+2024-05-26 20:40:20,010   WARNING  obico.server_conn - Not connected to websocket server after 120s
+2024-05-26 20:40:20,012     ERROR  obico.utils - Attempt 1 - backing off 0.328575 seconds: Not connected to websocket server after 120s
+2024-05-26 20:43:09,359   WARNING  obico.ws - WS Closed - None - None
+2024-05-26 20:43:19,570   WARNING  obico.ws - WS Closed - None - None
+2024-05-26 20:45:19,871   WARNING  obico.server_conn - Not connected to websocket server after 120s
+2024-05-26 20:45:19,873     ERROR  obico.utils - Attempt 1 - backing off 0.367906 seconds: Not connected to websocket server after 120s
+2024-05-26 20:45:20,266   WARNING  obico.ws - WS Closed - None - None
+2024-05-26 20:47:20,539   WARNING  obico.server_conn - Not connected to websocket server after 120s
+2024-05-26 20:47:20,540     ERROR  obico.utils - Attempt 2 - backing off 0.533401 seconds: Not connected to websocket server after 120s
+2024-05-26 20:47:21,101   WARNING  obico.ws - WS Closed - None - None
+2024-05-26 20:49:21,403   WARNING  obico.server_conn - Not connected to websocket server after 120s
+2024-05-26 20:49:21,404     ERROR  obico.utils - Attempt 3 - backing off 1.378067 seconds: Not connected to websocket server after 120s
+2024-05-26 20:51:47,074   WARNING  obico.ws - WS Closed - None - None
+2024-05-26 20:51:49,903   WARNING  obico.ws - WS Closed - None - None
+2024-05-26 20:53:50,264   WARNING  obico.server_conn - Not connected to websocket server after 120s
+2024-05-26 20:53:50,266     ERROR  obico.utils - Attempt 1 - backing off 0.126700 seconds: Not connected to websocket server after 120s
+2024-05-26 21:38:29,428   WARNING  obico.ws - WS Closed - None - None
+2024-05-26 21:39:21,201   WARNING  obico.ws - WS Closed - None - None
+2024-05-26 21:40:50,996   WARNING  obico.server_conn - Not connected to websocket server after 120s
+2024-05-26 21:40:50,997     ERROR  obico.utils - Attempt 1 - backing off 0.352211 seconds: Not connected to websocket server after 120s
+2024-05-26 21:41:21,835   WARNING  obico.ws - WS Closed - None - None
+2024-05-26 21:42:51,703   WARNING  obico.server_conn - Not connected to websocket server after 120s
+2024-05-26 21:42:51,705     ERROR  obico.utils - Attempt 2 - backing off 0.566054 seconds: Not connected to websocket server after 120s
+2024-05-26 21:43:22,736   WARNING  obico.ws - WS Closed - None - None
+2024-05-26 21:44:52,602   WARNING  obico.server_conn - Not connected to websocket server after 120s
+2024-05-26 21:44:52,603     ERROR  obico.utils - Attempt 3 - backing off 1.443773 seconds: Not connected to websocket server after 120s
+2024-05-26 21:45:24,520   WARNING  obico.ws - WS Closed - None - None
+2024-05-26 21:46:54,385   WARNING  obico.server_conn - Not connected to websocket server after 120s
+2024-05-26 21:46:54,386     ERROR  obico.utils - Attempt 4 - backing off 1.260579 seconds: Not connected to websocket server after 120s
+2024-05-26 21:47:26,130   WARNING  obico.ws - WS Closed - None - None
+2024-05-26 21:48:56,000   WARNING  obico.server_conn - Not connected to websocket server after 120s
+2024-05-26 21:48:56,001     ERROR  obico.utils - Attempt 5 - backing off 5.723640 seconds: Not connected to websocket server after 120s
+2024-05-26 21:49:32,223   WARNING  obico.ws - WS Closed - None - None
+2024-05-26 21:51:02,090   WARNING  obico.server_conn - Not connected to websocket server after 120s
+2024-05-26 21:51:02,091     ERROR  obico.utils - Attempt 6 - backing off 5.536184 seconds: Not connected to websocket server after 120s
+2024-05-26 21:51:38,112   WARNING  obico.ws - WS Closed - None - None
+2024-05-26 21:53:08,001   WARNING  obico.server_conn - Not connected to websocket server after 120s
+2024-05-26 21:53:08,002     ERROR  obico.utils - Attempt 7 - backing off 22.985226 seconds: Not connected to websocket server after 120s
+2024-05-26 21:54:01,488   WARNING  obico.ws - WS Closed - None - None
+2024-05-26 21:55:31,370   WARNING  obico.server_conn - Not connected to websocket server after 120s
+2024-05-26 21:55:31,371     ERROR  obico.utils - Attempt 8 - backing off 40.620707 seconds: Not connected to websocket server after 120s
+2024-05-26 21:56:42,471   WARNING  obico.ws - WS Closed - None - None
+2024-05-26 21:58:12,356   WARNING  obico.server_conn - Not connected to websocket server after 120s
+2024-05-26 21:58:12,358     ERROR  obico.utils - Attempt 9 - backing off 53.833918 seconds: Not connected to websocket server after 120s
+2024-05-26 21:59:36,664   WARNING  obico.ws - WS Closed - None - None
+2024-05-26 22:01:06,502   WARNING  obico.server_conn - Not connected to websocket server after 120s
+2024-05-26 22:01:06,503     ERROR  obico.utils - Attempt 10 - backing off 143.474546 seconds: Not connected to websocket server after 120s
+2024-05-26 22:04:00,481   WARNING  obico.ws - WS Closed - None - None
+2024-05-26 22:05:30,307   WARNING  obico.server_conn - Not connected to websocket server after 120s
+2024-05-26 22:05:30,308     ERROR  obico.utils - Attempt 11 - backing off 276.614599 seconds: Not connected to websocket server after 120s
+2024-05-26 22:09:21,363   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:09:51,467   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:10:37,390   WARNING  obico.ws - WS Closed - None - None
+2024-05-26 22:10:51,403   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:11:21,245   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:11:51,354   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:12:07,295   WARNING  obico.server_conn - Not connected to websocket server after 120s
+2024-05-26 22:12:07,296     ERROR  obico.utils - Attempt 12 - backing off 274.524367 seconds: Not connected to websocket server after 120s
+2024-05-26 22:12:21,429   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:12:51,269   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:13:21,366   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:13:51,459   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:14:21,545   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:14:51,388   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:15:21,475   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:15:51,327   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:16:21,427   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:17:12,286   WARNING  obico.ws - WS Closed - None - None
+2024-05-26 22:17:21,608   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:17:51,451   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:18:21,540   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:18:42,166   WARNING  obico.server_conn - Not connected to websocket server after 120s
+2024-05-26 22:18:42,167     ERROR  obico.utils - Attempt 13 - backing off 299.985118 seconds: Not connected to websocket server after 120s
+2024-05-26 22:18:51,637   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:19:21,481   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:19:51,574   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:20:21,661   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:20:51,504   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:21:21,620   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:21:51,691   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:22:21,526   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:22:51,626   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:23:21,477   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:24:12,713   WARNING  obico.ws - WS Closed - None - None
+2024-05-26 22:24:21,655   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:24:51,751   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:25:21,596   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:25:42,473   WARNING  obico.server_conn - Not connected to websocket server after 120s
+2024-05-26 22:25:42,475     ERROR  obico.utils - Attempt 14 - backing off 392.698399 seconds: Not connected to websocket server after 120s
+2024-05-26 22:25:51,693   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:26:21,779   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:26:51,625   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:27:21,713   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:27:51,798   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:28:21,632   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:28:51,735   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:29:21,814   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:29:51,651   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:30:21,739   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:30:51,850   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:31:21,678   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:31:51,769   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:32:45,889   WARNING  obico.ws - WS Closed - None - None
+2024-05-26 22:32:51,702   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:33:21,790   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:33:51,885   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:34:15,511   WARNING  obico.server_conn - Not connected to websocket server after 120s
+2024-05-26 22:34:15,512     ERROR  obico.utils - Attempt 15 - backing off 228.607287 seconds: Not connected to websocket server after 120s
+2024-05-26 22:34:21,724   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:34:51,821   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:35:21,913   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:35:51,753   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:36:21,844   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:36:51,940   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:37:21,775   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:37:51,866   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:38:34,597   WARNING  obico.ws - WS Closed - None - None
+2024-05-26 22:38:51,802   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:39:21,901   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:39:51,989   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:40:04,487   WARNING  obico.server_conn - Not connected to websocket server after 120s
+2024-05-26 22:40:04,488     ERROR  obico.utils - Attempt 16 - backing off 229.824452 seconds: Not connected to websocket server after 120s
+2024-05-26 22:40:21,832   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:40:51,932   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:41:22,024   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:41:51,864   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:42:21,956   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:42:52,068   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:43:21,905   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:43:51,989   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:44:24,848   WARNING  obico.ws - WS Closed - None - None
+2024-05-26 22:44:51,931   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:45:22,025   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:45:52,110   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:45:54,674   WARNING  obico.server_conn - Not connected to websocket server after 120s
+2024-05-26 22:45:54,676     ERROR  obico.utils - Attempt 17 - backing off 370.996284 seconds: Not connected to websocket server after 120s
+2024-05-26 22:46:21,961   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:46:52,043   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:47:22,136   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:47:51,975   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:48:22,067   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:48:52,166   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:49:22,015   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:49:52,101   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:50:22,196   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:50:52,040   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:51:22,148   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:51:52,232   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:52:36,166   WARNING  obico.ws - WS Closed - None - None
+2024-05-26 22:52:52,174   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:53:22,268   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:53:52,112   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:54:06,002   WARNING  obico.server_conn - Not connected to websocket server after 120s
+2024-05-26 22:54:06,003     ERROR  obico.utils - Attempt 18 - backing off 167.489262 seconds: Not connected to websocket server after 120s
+2024-05-26 22:54:22,201   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:54:52,294   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:55:22,143   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:55:52,238   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:56:22,331   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:56:52,177   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:57:23,964   WARNING  obico.ws - WS Closed - None - None
+2024-05-26 22:57:52,368   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:58:22,212   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:58:52,312   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:58:53,825   WARNING  obico.server_conn - Not connected to websocket server after 120s
+2024-05-26 22:58:53,828     ERROR  obico.utils - Attempt 19 - backing off 201.355015 seconds: Not connected to websocket server after 120s
+2024-05-26 22:59:22,407   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 22:59:52,252   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:00:22,346   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:00:52,441   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:01:22,285   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:01:52,383   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:02:45,881   WARNING  obico.ws - WS Closed - None - None
+2024-05-26 23:02:52,324   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:03:22,409   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:03:52,503   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:04:15,555   WARNING  obico.server_conn - Not connected to websocket server after 120s
+2024-05-26 23:04:15,556     ERROR  obico.utils - Attempt 20 - backing off 227.822865 seconds: Not connected to websocket server after 120s
+2024-05-26 23:04:22,353   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:04:52,450   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:05:22,541   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:05:52,385   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:06:22,484   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:06:52,576   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:07:22,417   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:07:52,508   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:08:33,887   WARNING  obico.ws - WS Closed - None - None
+2024-05-26 23:08:52,440   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:09:22,532   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:09:52,627   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:10:03,705   WARNING  obico.server_conn - Not connected to websocket server after 120s
+2024-05-26 23:10:03,706     ERROR  obico.utils - Attempt 21 - backing off 365.929379 seconds: Not connected to websocket server after 120s
+2024-05-26 23:10:22,467   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:10:52,559   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:11:22,651   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:11:52,498   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:12:22,598   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:12:52,444   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:13:22,534   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:13:52,625   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:14:22,480   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:14:52,573   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:15:22,668   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:15:52,509   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:16:40,127   WARNING  obico.ws - WS Closed - None - None
+2024-05-26 23:16:52,694   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:17:22,546   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:17:52,641   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:18:09,991   WARNING  obico.server_conn - Not connected to websocket server after 120s
+2024-05-26 23:18:09,992     ERROR  obico.utils - Attempt 22 - backing off 301.537178 seconds: Not connected to websocket server after 120s
+2024-05-26 23:18:22,731   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:18:52,576   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:19:22,674   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:19:52,771   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:20:22,618   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:20:52,710   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:21:22,807   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:21:52,649   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:22:22,739   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:22:52,837   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:23:42,012   WARNING  obico.ws - WS Closed - None - None
+2024-05-26 23:23:52,767   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:24:22,853   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:24:52,696   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:25:11,865   WARNING  obico.server_conn - Not connected to websocket server after 120s
+2024-05-26 23:25:11,866     ERROR  obico.utils - Attempt 23 - backing off 367.605090 seconds: Not connected to websocket server after 120s
+2024-05-26 23:25:22,791   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:25:52,884   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:26:22,716   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:26:52,811   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:27:22,911   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:27:52,760   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:28:22,843   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:28:52,931   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:29:22,777   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:29:52,869   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:30:22,964   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:30:52,802   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:31:50,054   WARNING  obico.ws - WS Closed - None - None
+2024-05-26 23:31:52,991   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:32:22,835   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:32:52,938   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:33:19,824   WARNING  obico.server_conn - Not connected to websocket server after 120s
+2024-05-26 23:33:19,825     ERROR  obico.utils - Attempt 24 - backing off 237.821579 seconds: Not connected to websocket server after 120s
+2024-05-26 23:33:23,012   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:33:52,862   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:34:22,951   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:34:53,044   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:35:22,896   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:35:52,991   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:36:23,077   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:36:52,912   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:37:48,567   WARNING  obico.ws - WS Closed - None - None
+2024-05-26 23:37:53,097   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:38:22,934   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:38:53,026   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:39:17,981   WARNING  obico.server_conn - Not connected to websocket server after 120s
+2024-05-26 23:39:17,982     ERROR  obico.utils - Attempt 25 - backing off 204.165457 seconds: Not connected to websocket server after 120s
+2024-05-26 23:39:23,126   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:39:52,962   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:40:23,048   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:40:53,140   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:41:22,992   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:41:53,081   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:42:23,174   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:43:12,668   WARNING  obico.ws - WS Closed - None - None
+2024-05-26 23:43:23,111   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:43:53,203   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:44:23,293   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:44:42,480   WARNING  obico.server_conn - Not connected to websocket server after 120s
+2024-05-26 23:44:42,482     ERROR  obico.utils - Attempt 26 - backing off 378.077821 seconds: Not connected to websocket server after 120s
+2024-05-26 23:44:53,136   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:45:23,228   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:45:53,321   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:46:23,166   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:46:53,255   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:47:23,352   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:47:53,193   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:48:23,281   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:48:53,375   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:49:23,226   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:49:53,319   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:50:23,412   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:50:53,259   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:51:31,022   WARNING  obico.ws - WS Closed - None - None
+2024-05-26 23:51:53,449   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:52:23,296   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:52:53,405   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:53:00,904   WARNING  obico.server_conn - Not connected to websocket server after 120s
+2024-05-26 23:53:00,905     ERROR  obico.utils - Attempt 27 - backing off 201.838175 seconds: Not connected to websocket server after 120s
+2024-05-26 23:53:23,250   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:53:53,322   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:54:23,418   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:54:53,268   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:55:23,362   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:55:53,455   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:56:53,248   WARNING  obico.ws - WS Closed - None - None
+2024-05-26 23:56:53,390   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:57:23,476   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:57:53,323   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:58:23,067   WARNING  obico.server_conn - Not connected to websocket server after 120s
+2024-05-26 23:58:23,068     ERROR  obico.utils - Attempt 28 - backing off 327.385115 seconds: Not connected to websocket server after 120s
+2024-05-26 23:58:23,413   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:58:53,508   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:59:23,354   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-26 23:59:53,448   WARNING  obico.server_conn - Server message queue is full, msg dropped
