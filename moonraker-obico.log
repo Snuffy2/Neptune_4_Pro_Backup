@@ -5033,3 +5033,23 @@ b"dpkg-query: package 'janus' is not installed\nUse dpkg --contents (= dpkg-deb 
 2024-05-27 10:45:36,392   WARNING  obico.server_conn - Server message queue is full, msg dropped
 2024-05-27 10:46:06,484   WARNING  obico.server_conn - Server message queue is full, msg dropped
 2024-05-27 10:46:36,333   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-05-27 18:46:17,374      INFO  backoff - Backing off capture_jpeg(...) for 1.0s (AttributeError: 'ServerConn' object has no attribute 'snapshot_url')
+2024-05-27 18:46:18,368      INFO  backoff - Backing off capture_jpeg(...) for 0.7s (AttributeError: 'ServerConn' object has no attribute 'snapshot_url')
+2024-05-27 18:46:19,082     ERROR  backoff - Giving up capture_jpeg(...) after 3 tries (AttributeError: 'ServerConn' object has no attribute 'snapshot_url')
+2024-05-27 18:46:19,083   WARNING  obico.server_conn - Failed to capture jpeg - 'ServerConn' object has no attribute 'snapshot_url'
+2024-05-27 19:01:09,163      INFO  obico.app - detected state change: Operational -> Printing
+2024-05-27 19:01:09,756      INFO  obico.app - print event: PrintStarted (1716850868)
+2024-05-27 19:16:10,167      INFO  obico.app - detected state change: Printing -> Paused
+2024-05-27 19:16:10,170      INFO  obico.app - print event: PrintPaused (1716850868)
+2024-05-27 19:16:40,252      INFO  obico.app - detected state change: Paused -> Printing
+2024-05-27 19:16:40,253      INFO  obico.app - print event: PrintResumed (1716850868)
+2024-05-27 19:30:40,430      INFO  obico.app - detected state change: Printing -> Paused
+2024-05-27 19:30:40,431      INFO  obico.app - print event: PrintPaused (1716850868)
+2024-05-27 19:31:10,535      INFO  obico.app - detected state change: Paused -> Printing
+2024-05-27 19:31:10,536      INFO  obico.app - print event: PrintResumed (1716850868)
+2024-05-27 19:35:10,624      INFO  obico.app - detected state change: Printing -> Paused
+2024-05-27 19:35:10,633      INFO  obico.app - print event: PrintPaused (1716850868)
+2024-05-27 19:35:40,529      INFO  obico.app - detected state change: Paused -> Printing
+2024-05-27 19:35:40,531      INFO  obico.app - print event: PrintResumed (1716850868)
+2024-05-27 19:37:55,496      INFO  obico.app - detected state change: Printing -> Operational
+2024-05-27 19:37:55,501      INFO  obico.app - print event: PrintDone (1716850868)
