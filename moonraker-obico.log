@@ -5053,3 +5053,34 @@ b"dpkg-query: package 'janus' is not installed\nUse dpkg --contents (= dpkg-deb 
 2024-05-27 19:35:40,531      INFO  obico.app - print event: PrintResumed (1716850868)
 2024-05-27 19:37:55,496      INFO  obico.app - detected state change: Printing -> Operational
 2024-05-27 19:37:55,501      INFO  obico.app - print event: PrintDone (1716850868)
+2024-05-28 08:03:02,724   WARNING  obico.ws - WS Closed - None - None
+2024-05-28 08:03:10,336   WARNING  obico.ws - WS Closed - None - None
+2024-05-28 08:05:10,170   WARNING  obico.server_conn - Not connected to websocket server after 120s
+2024-05-28 08:05:10,171     ERROR  obico.utils - Attempt 1 - backing off 0.309930 seconds: Not connected to websocket server after 120s
+2024-05-28 08:05:10,949   WARNING  obico.ws - WS Closed - None - None
+2024-05-28 08:07:10,866   WARNING  obico.server_conn - Not connected to websocket server after 120s
+2024-05-28 08:07:10,868     ERROR  obico.utils - Attempt 2 - backing off 0.521818 seconds: Not connected to websocket server after 120s
+2024-05-28 08:07:41,858   WARNING  obico.ws - WS Closed - None - None
+2024-05-28 08:09:11,758   WARNING  obico.server_conn - Not connected to websocket server after 120s
+2024-05-28 08:09:11,760     ERROR  obico.utils - Attempt 3 - backing off 1.193623 seconds: Not connected to websocket server after 120s
+2024-05-28 08:09:43,426   WARNING  obico.ws - WS Closed - None - None
+2024-05-28 08:11:13,300   WARNING  obico.server_conn - Not connected to websocket server after 120s
+2024-05-28 08:11:13,301     ERROR  obico.utils - Attempt 4 - backing off 2.750504 seconds: Not connected to websocket server after 120s
+2024-05-28 08:11:16,516   WARNING  obico.ws - WS Closed - None - None
+2024-05-28 08:13:16,438   WARNING  obico.server_conn - Not connected to websocket server after 120s
+2024-05-28 08:13:16,440     ERROR  obico.utils - Attempt 5 - backing off 3.353945 seconds: Not connected to websocket server after 120s
+2024-05-28 08:13:20,268   WARNING  obico.ws - WS Closed - None - None
+2024-05-28 08:15:20,145   WARNING  obico.server_conn - Not connected to websocket server after 120s
+2024-05-28 08:15:20,147     ERROR  obico.utils - Attempt 6 - backing off 9.042828 seconds: Not connected to websocket server after 120s
+2024-05-28 08:15:29,658   WARNING  obico.ws - WS Closed - None - None
+2024-05-28 08:17:29,551   WARNING  obico.server_conn - Not connected to websocket server after 120s
+2024-05-28 08:17:29,553     ERROR  obico.utils - Attempt 7 - backing off 18.295535 seconds: Not connected to websocket server after 120s
+2024-05-28 08:17:48,320   WARNING  obico.ws - WS Closed - None - None
+2024-05-28 08:19:48,244   WARNING  obico.server_conn - Not connected to websocket server after 120s
+2024-05-28 08:19:48,245     ERROR  obico.utils - Attempt 8 - backing off 26.639519 seconds: Not connected to websocket server after 120s
+2024-05-28 08:20:15,364   WARNING  obico.ws - WS Closed - None - None
+2024-05-28 08:22:15,243   WARNING  obico.server_conn - Not connected to websocket server after 120s
+2024-05-28 08:22:15,244     ERROR  obico.utils - Attempt 9 - backing off 51.761384 seconds: Not connected to websocket server after 120s
+2024-05-28 08:23:07,462   WARNING  obico.ws - WS Closed - None - None
+2024-05-28 08:25:07,387   WARNING  obico.server_conn - Not connected to websocket server after 120s
+2024-05-28 08:25:07,388     ERROR  obico.utils - Attempt 10 - backing off 114.279622 seconds: Not connected to websocket server after 120s
