@@ -38159,3 +38159,4 @@ b"dpkg-query: package 'janus' is not installed\nUse dpkg --contents (= dpkg-deb 
 2024-06-13 12:33:53,752   WARNING  obico.server_conn - Server message queue is full, msg dropped
 2024-06-13 12:34:23,835   WARNING  obico.server_conn - Server message queue is full, msg dropped
 2024-06-13 12:34:53,932   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-06-14 00:47:27,193   WARNING  obico.ws - WS Closed - None - None
