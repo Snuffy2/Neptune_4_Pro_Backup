@@ -38184,3 +38184,4 @@ b"dpkg-query: package 'janus' is not installed\nUse dpkg --contents (= dpkg-deb 
 2024-06-14 22:48:14,434      INFO  obico.webcam_stream - Not on a Raspberry Pi. Switching to MJPEG streaming
 2024-06-14 22:48:15,422      INFO  backoff - Backing off wait_for_janus(...) for 0.8s (ConnectionRefusedError: [Errno 111] Connection refused)
 2024-06-14 22:48:15,622   WARNING  obico.nozzlecam - Exception in build nozzle config. First Layer AI disabled.
+2024-06-15 22:48:14,627   WARNING  obico.ws - WS Closed - 1000 - 
