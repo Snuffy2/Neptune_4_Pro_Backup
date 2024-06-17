@@ -38186,3 +38186,8 @@ b"dpkg-query: package 'janus' is not installed\nUse dpkg --contents (= dpkg-deb 
 2024-06-14 22:48:15,622   WARNING  obico.nozzlecam - Exception in build nozzle config. First Layer AI disabled.
 2024-06-15 22:48:14,627   WARNING  obico.ws - WS Closed - 1000 - 
 2024-06-16 22:48:18,332   WARNING  obico.ws - WS Closed - 1000 - 
+2024-06-17 03:00:51,827   WARNING  obico.ws - WS Closed - None - None
+2024-06-17 03:00:58,222   WARNING  obico.ws - WS Closed - None - None
+2024-06-17 03:02:54,822   WARNING  obico.server_conn - Not connected to websocket server after 120s
+2024-06-17 03:02:54,823     ERROR  obico.utils - Attempt 1 - backing off 0.197646 seconds: Not connected to websocket server after 120s
+2024-06-17 04:46:05,030   WARNING  obico.ws - WS Closed - None - None
