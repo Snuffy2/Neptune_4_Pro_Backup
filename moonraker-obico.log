@@ -38240,3 +38240,4 @@ b"dpkg-query: package 'janus' is not installed\nUse dpkg --contents (= dpkg-deb 
 2024-06-20 03:04:30,507   WARNING  obico.ws - WS Closed - None - None
 2024-06-20 03:06:30,832   WARNING  obico.server_conn - Not connected to websocket server after 120s
 2024-06-20 03:06:30,833     ERROR  obico.utils - Attempt 1 - backing off 0.163180 seconds: Not connected to websocket server after 120s
+2024-06-20 06:32:14,479   WARNING  obico.ws - WS Closed - None - None
