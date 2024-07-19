@@ -10359,3 +10359,9 @@
 2024-07-18 23:57:25,200      INFO  obico.app - print event: PrintPaused (1721359434)
 2024-07-18 23:57:55,283      INFO  obico.app - detected state change: Paused -> Printing
 2024-07-18 23:57:55,285      INFO  obico.app - print event: PrintResumed (1721359434)
+2024-07-19 00:06:55,344      INFO  obico.app - detected state change: Printing -> Paused
+2024-07-19 00:06:55,345      INFO  obico.app - print event: PrintPaused (1721359434)
+2024-07-19 00:07:25,441      INFO  obico.app - detected state change: Paused -> Printing
+2024-07-19 00:07:25,442      INFO  obico.app - print event: PrintResumed (1721359434)
+2024-07-19 00:26:27,229      INFO  obico.app - detected state change: Printing -> Operational
+2024-07-19 00:26:27,230      INFO  obico.app - print event: PrintDone (1721359434)
