@@ -10437,3 +10437,7 @@
 2024-07-19 12:23:54,162      INFO  obico.app - print event: PrintResumed (1721402482)
 2024-07-19 12:26:59,284      INFO  obico.app - detected state change: Printing -> Operational
 2024-07-19 12:26:59,289      INFO  obico.app - print event: PrintDone (1721402482)
+2024-07-19 20:08:49,929   WARNING  obico.ws - WS Closed - None - None
+2024-07-19 20:13:46,125   WARNING  obico.ws - WS Closed - None - None
+2024-07-19 20:24:47,625   WARNING  obico.ws - WS Closed - None - None
+2024-07-19 20:51:34,528   WARNING  obico.ws - WS Closed - None - None
