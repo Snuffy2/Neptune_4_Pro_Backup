@@ -18879,3 +18879,22 @@
 2024-08-30 13:52:38,052      INFO  obico.app - print event: PrintResumed (1725039464)
 2024-08-30 13:52:44,083      INFO  obico.app - detected state change: Printing -> Operational
 2024-08-30 13:52:44,089     ERROR  obico.app - unexpected state "standby", please report.
+2024-08-30 18:28:16,309   WARNING  obico.ws - WS Closed - None - None
+2024-08-30 18:28:31,266   WARNING  obico.ws - WS Closed - None - None
+2024-08-30 18:30:31,634   WARNING  obico.server_conn - Not connected to websocket server after 120s
+2024-08-30 18:30:31,635     ERROR  obico.utils - Attempt 1 - backing off 0.266633 seconds: Not connected to websocket server after 120s
+2024-08-30 18:31:53,604   WARNING  obico.ws - WS Closed - None - None
+2024-08-30 18:32:05,412   WARNING  obico.ws - WS Closed - None - None
+2024-08-30 18:34:05,771   WARNING  obico.server_conn - Not connected to websocket server after 120s
+2024-08-30 18:34:05,773     ERROR  obico.utils - Attempt 1 - backing off 0.152670 seconds: Not connected to websocket server after 120s
+2024-08-30 18:34:05,943   WARNING  obico.ws - WS Closed - None - None
+2024-08-30 18:36:06,274   WARNING  obico.server_conn - Not connected to websocket server after 120s
+2024-08-30 18:36:06,276     ERROR  obico.utils - Attempt 2 - backing off 0.401556 seconds: Not connected to websocket server after 120s
+2024-08-30 18:36:06,700   WARNING  obico.ws - WS Closed - None - None
+2024-08-30 18:38:07,050   WARNING  obico.server_conn - Not connected to websocket server after 120s
+2024-08-30 18:38:07,051     ERROR  obico.utils - Attempt 3 - backing off 1.380305 seconds: Not connected to websocket server after 120s
+2024-08-30 18:38:08,445   WARNING  obico.ws - WS Closed - None - None
+2024-08-30 18:40:08,785   WARNING  obico.server_conn - Not connected to websocket server after 120s
+2024-08-30 18:40:08,787     ERROR  obico.utils - Attempt 4 - backing off 1.330843 seconds: Not connected to websocket server after 120s
+2024-08-30 20:25:48,035   WARNING  obico.ws - WS Closed - None - None
+2024-08-30 20:42:11,083   WARNING  obico.ws - WS Closed - None - None
