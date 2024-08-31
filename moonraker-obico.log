@@ -18898,3 +18898,7 @@
 2024-08-30 18:40:08,787     ERROR  obico.utils - Attempt 4 - backing off 1.330843 seconds: Not connected to websocket server after 120s
 2024-08-30 20:25:48,035   WARNING  obico.ws - WS Closed - None - None
 2024-08-30 20:42:11,083   WARNING  obico.ws - WS Closed - None - None
+2024-08-31 13:54:39,184   WARNING  obico.ws - WS Closed - None - None
+2024-08-31 13:55:19,353   WARNING  obico.ws - WS Closed - None - None
+2024-08-31 13:56:49,291   WARNING  obico.server_conn - Not connected to websocket server after 120s
+2024-08-31 13:56:49,293     ERROR  obico.utils - Attempt 1 - backing off 0.323085 seconds: Not connected to websocket server after 120s
