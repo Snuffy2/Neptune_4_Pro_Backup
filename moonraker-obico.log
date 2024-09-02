@@ -20895,3 +20895,8 @@ moonraker_obico.ws.WebSocketConnectionException: Not connected to websocket serv
 2024-09-01 18:45:31,744      INFO  obico.janus_config_builder - janus_bin_path: /usr/bin/janus - ld_lib_path: None
 2024-09-01 18:45:31,747   WARNING  obico.janus - Failed to shutdown Janus - [Errno 2] No such file or directory: '/tmp/obico-janus-17730.pid'
 2024-09-01 18:45:31,950      INFO  backoff - Backing off wait_for_port(...) for 1.0s (False)
+2024-09-02 03:00:12,390   WARNING  obico.ws - WS Closed - None - None
+2024-09-02 03:00:39,780   WARNING  obico.ws - WS Closed - None - None
+2024-09-02 03:02:20,125   WARNING  obico.server_conn - Not connected to websocket server after 120s
+2024-09-02 03:02:20,126     ERROR  obico.utils - Attempt 1 - backing off 0.187357 seconds: Not connected to websocket server after 120s
+2024-09-02 04:45:55,831   WARNING  obico.ws - WS Closed - None - None
