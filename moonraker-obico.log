@@ -20900,3 +20900,45 @@ moonraker_obico.ws.WebSocketConnectionException: Not connected to websocket serv
 2024-09-02 03:02:20,125   WARNING  obico.server_conn - Not connected to websocket server after 120s
 2024-09-02 03:02:20,126     ERROR  obico.utils - Attempt 1 - backing off 0.187357 seconds: Not connected to websocket server after 120s
 2024-09-02 04:45:55,831   WARNING  obico.ws - WS Closed - None - None
+2024-09-02 16:37:30,819      INFO  obico.app - detected state change: Operational -> Printing
+2024-09-02 16:37:31,443      INFO  obico.app - print event: PrintStarted (1725309450)
+2024-09-02 16:41:27,754      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-02 16:41:27,755      INFO  obico.app - print event: PrintPaused (1725309450)
+2024-09-02 16:41:28,752      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-02 16:41:28,753      INFO  obico.app - print event: PrintResumed (1725309450)
+2024-09-02 16:53:45,132      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-02 16:53:45,133      INFO  obico.app - print event: PrintPaused (1725309450)
+2024-09-02 16:53:46,134      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-02 16:53:46,135      INFO  obico.app - print event: PrintResumed (1725309450)
+2024-09-02 17:04:39,325      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-02 17:04:39,327      INFO  obico.app - print event: PrintPaused (1725309450)
+2024-09-02 17:04:40,347      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-02 17:04:40,348      INFO  obico.app - print event: PrintResumed (1725309450)
+2024-09-02 17:22:45,841      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-02 17:22:45,842      INFO  obico.app - print event: PrintPaused (1725309450)
+2024-09-02 17:22:46,843      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-02 17:22:46,844      INFO  obico.app - print event: PrintResumed (1725309450)
+2024-09-02 17:25:12,867      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-02 17:25:12,868      INFO  obico.app - print event: PrintPaused (1725309450)
+2024-09-02 17:25:13,889      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-02 17:25:13,890      INFO  obico.app - print event: PrintResumed (1725309450)
+2024-09-02 17:29:28,982      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-02 17:29:28,984      INFO  obico.app - print event: PrintPaused (1725309450)
+2024-09-02 17:29:30,040      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-02 17:29:30,043      INFO  obico.app - print event: PrintResumed (1725309450)
+2024-09-02 17:33:13,943      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-02 17:33:13,946      INFO  obico.app - print event: PrintPaused (1725309450)
+2024-09-02 17:33:14,994      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-02 17:33:14,996      INFO  obico.app - print event: PrintResumed (1725309450)
+2024-09-02 17:36:54,171      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-02 17:36:54,172      INFO  obico.app - print event: PrintPaused (1725309450)
+2024-09-02 17:36:55,240      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-02 17:36:55,242      INFO  obico.app - print event: PrintResumed (1725309450)
+2024-09-02 17:46:52,463      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-02 17:46:52,464      INFO  obico.app - print event: PrintPaused (1725309450)
+2024-09-02 17:46:53,465      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-02 17:46:53,467      INFO  obico.app - print event: PrintResumed (1725309450)
+2024-09-02 17:52:56,546      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-02 17:52:56,548      INFO  obico.app - print event: PrintPaused (1725309450)
+2024-09-02 17:52:57,601      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-02 17:52:57,602      INFO  obico.app - print event: PrintResumed (1725309450)
