@@ -23618,3 +23618,46 @@ moonraker_obico.ws.WebSocketConnectionException: Not connected to websocket serv
 2024-09-05 18:28:34,437      INFO  obico.app - print event: PrintResumed (1725571349)
 2024-09-05 18:28:45,227      INFO  obico.app - detected state change: Printing -> Operational
 2024-09-05 18:28:45,232      INFO  obico.app - print event: PrintDone (1725571349)
+2024-09-06 03:07:10,628   WARNING  obico.ws - WS Closed - 1000 - 
+2024-09-06 04:01:05,610   WARNING  obico.ws - WS Closed - None - None
+2024-09-06 04:02:03,247   WARNING  obico.ws - WS Closed - None - None
+2024-09-06 04:03:32,224   WARNING  obico.server_conn - Not connected to websocket server after 120s
+2024-09-06 04:03:32,225     ERROR  obico.utils - Attempt 1 - backing off 0.264947 seconds: Not connected to websocket server after 120s
+2024-09-06 04:24:22,337      INFO  obico.app - moonraker-obico config:
+{'server': {'url': 'https://obico.snuffy2.com', 'auth_token': 'bbf4da100dcbbb0fa8ec'}, 'moonraker': {'host': '10.100.100.35', 'port': '7125'}, 'webcam': {'disable_video_streaming': 'False', 'target_fps': '25', 'snapshot_url': 'http://10.100.100.35/webcam/?action=snapshot', 'stream_url': 'http://10.100.100.35/webcam/?action=stream'}, 'logging': {'path': '/home/mks/printer_data/config/moonraker-obico.log', 'level': 'INFO'}, 'tunnel': {}}
+2024-09-06 04:24:22,348   WARNING  obico.moonraker_conn - api key is unset, trying to fetch one
+2024-09-06 04:24:22,413      INFO  backoff - Backing off ensure_api_key(...) for 0.1s (requests.exceptions.ConnectionError: HTTPConnectionPool(host='10.100.100.35', port=7125): Max retries exceeded with url: /access/api_key (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff945646d0>: Failed to establish a new connection: [Errno 101] Network is unreachable')))
+2024-09-06 04:24:22,532   WARNING  obico.moonraker_conn - api key is unset, trying to fetch one
+2024-09-06 04:24:22,546      INFO  backoff - Backing off ensure_api_key(...) for 0.6s (requests.exceptions.ConnectionError: HTTPConnectionPool(host='10.100.100.35', port=7125): Max retries exceeded with url: /access/api_key (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff94597bd0>: Failed to establish a new connection: [Errno 101] Network is unreachable')))
+2024-09-06 04:24:23,151   WARNING  obico.moonraker_conn - api key is unset, trying to fetch one
+2024-09-06 04:24:23,172      INFO  backoff - Backing off ensure_api_key(...) for 2.9s (requests.exceptions.ConnectionError: HTTPConnectionPool(host='10.100.100.35', port=7125): Max retries exceeded with url: /access/api_key (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff945c1850>: Failed to establish a new connection: [Errno 101] Network is unreachable')))
+2024-09-06 04:24:26,044   WARNING  obico.moonraker_conn - api key is unset, trying to fetch one
+2024-09-06 04:24:26,074      INFO  backoff - Backing off ensure_api_key(...) for 3.3s (requests.exceptions.ConnectionError: HTTPConnectionPool(host='10.100.100.35', port=7125): Max retries exceeded with url: /access/api_key (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff94597410>: Failed to establish a new connection: [Errno 101] Network is unreachable')))
+2024-09-06 04:24:29,396   WARNING  obico.moonraker_conn - api key is unset, trying to fetch one
+2024-09-06 04:24:29,415      INFO  backoff - Backing off ensure_api_key(...) for 4.0s (requests.exceptions.ConnectionError: HTTPConnectionPool(host='10.100.100.35', port=7125): Max retries exceeded with url: /access/api_key (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9455fd90>: Failed to establish a new connection: [Errno 111] Connection refused')))
+2024-09-06 04:24:50,812   WARNING  obico.moonraker_conn - api key is unset, trying to fetch one
+2024-09-06 04:24:50,846      INFO  obico.moonraker_conn - connection is open
+2024-09-06 04:24:50,933      INFO  obico.moonraker_conn - Klippy ready
+2024-09-06 04:24:51,611      INFO  obico.app - Linked printer: {'is_pro': True, 'id': 1, 'name': 'Neptune 4 Pro', 'retract_on_pause': 6.5}
+2024-09-06 04:24:51,621   WARNING  obico.app - Connections not ready. Trying again in 1s...
+2024-09-06 04:24:52,711      INFO  obico.app - detected state change: Offline -> Operational
+2024-09-06 04:24:53,275   WARNING  obico.nozzlecam - Can not find nozzle camera. First Layer AI disabled.
+2024-09-06 04:24:55,670   WARNING  obico.webcam_stream - No ffmpeg found, or ffmpeg does NOT support h264_omx/h264_v4l2m2m encoding.
+2024-09-06 04:24:55,671   WARNING  obico.webcam_stream - Resolution not specified or invalid in webcam config. Getting the values from the source.
+2024-09-06 04:24:55,736      INFO  obico.janus_config_builder - janus_bin_path: /usr/bin/janus - ld_lib_path: None
+2024-09-06 04:24:55,740   WARNING  obico.janus - Failed to shutdown Janus - [Errno 2] No such file or directory: '/tmp/obico-janus-17730.pid'
+2024-09-06 04:24:55,944      INFO  backoff - Backing off wait_for_port(...) for 1.0s (False)
+2024-09-06 05:50:48,491   WARNING  obico.ws - WS Closed - None - None
+2024-09-06 05:51:19,561   WARNING  obico.ws - WS Closed - None - None
+2024-09-06 05:52:49,487   WARNING  obico.server_conn - Not connected to websocket server after 120s
+2024-09-06 05:52:49,488     ERROR  obico.utils - Attempt 1 - backing off 0.157714 seconds: Not connected to websocket server after 120s
+2024-09-06 05:53:20,135   WARNING  obico.ws - WS Closed - None - None
+2024-09-06 05:54:50,070   WARNING  obico.server_conn - Not connected to websocket server after 120s
+2024-09-06 05:54:50,076     ERROR  obico.utils - Attempt 2 - backing off 0.501738 seconds: Not connected to websocket server after 120s
+2024-09-06 05:55:21,037   WARNING  obico.ws - WS Closed - None - None
+2024-09-06 05:56:50,973   WARNING  obico.server_conn - Not connected to websocket server after 120s
+2024-09-06 05:56:50,974     ERROR  obico.utils - Attempt 3 - backing off 0.524896 seconds: Not connected to websocket server after 120s
+2024-09-06 05:57:21,975   WARNING  obico.ws - WS Closed - None - None
+2024-09-06 05:58:51,930   WARNING  obico.server_conn - Not connected to websocket server after 120s
+2024-09-06 05:58:51,931     ERROR  obico.utils - Attempt 4 - backing off 1.255543 seconds: Not connected to websocket server after 120s
+2024-09-06 05:59:23,663   WARNING  obico.ws - WS Closed - None - None
