@@ -23879,3 +23879,4 @@ moonraker_obico.ws.WebSocketConnectionException: Not connected to websocket serv
 2024-09-06 07:46:59,364   WARNING  obico.server_conn - Server message queue is full, msg dropped
 2024-09-06 07:47:29,461   WARNING  obico.server_conn - Server message queue is full, msg dropped
 2024-09-06 07:47:59,553   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-09-07 07:48:02,053   WARNING  obico.ws - WS Closed - 1000 - 
