@@ -23880,3 +23880,80 @@ moonraker_obico.ws.WebSocketConnectionException: Not connected to websocket serv
 2024-09-06 07:47:29,461   WARNING  obico.server_conn - Server message queue is full, msg dropped
 2024-09-06 07:47:59,553   WARNING  obico.server_conn - Server message queue is full, msg dropped
 2024-09-07 07:48:02,053   WARNING  obico.ws - WS Closed - 1000 - 
+2024-09-07 22:42:38,258      INFO  obico.app - detected state change: Operational -> Printing
+2024-09-07 22:42:40,908      INFO  obico.app - print event: PrintStarted (1725763358)
+2024-09-07 22:45:01,166      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-07 22:45:01,167      INFO  obico.app - print event: PrintPaused (1725763358)
+2024-09-07 22:45:02,162      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-07 22:45:02,163      INFO  obico.app - print event: PrintResumed (1725763358)
+2024-09-07 22:51:45,790      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-07 22:51:45,792      INFO  obico.app - print event: PrintPaused (1725763358)
+2024-09-07 22:51:46,292      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-07 22:51:46,294      INFO  obico.app - print event: PrintResumed (1725763358)
+2024-09-07 22:57:40,569      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-07 22:57:40,575      INFO  obico.app - print event: PrintPaused (1725763358)
+2024-09-07 22:57:41,069      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-07 22:57:41,070      INFO  obico.app - print event: PrintResumed (1725763358)
+2024-09-07 23:03:09,235      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-07 23:03:09,236      INFO  obico.app - print event: PrintPaused (1725763358)
+2024-09-07 23:03:09,741      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-07 23:03:09,749      INFO  obico.app - print event: PrintResumed (1725763358)
+2024-09-07 23:08:11,824      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-07 23:08:11,826      INFO  obico.app - print event: PrintPaused (1725763358)
+2024-09-07 23:08:12,402      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-07 23:08:12,404      INFO  obico.app - print event: PrintResumed (1725763358)
+2024-09-07 23:09:54,772      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-07 23:09:54,775      INFO  obico.app - print event: PrintPaused (1725763358)
+2024-09-07 23:09:55,574      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-07 23:09:55,576      INFO  obico.app - print event: PrintResumed (1725763358)
+2024-09-07 23:11:26,999      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-07 23:11:27,001      INFO  obico.app - print event: PrintPaused (1725763358)
+2024-09-07 23:11:27,748      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-07 23:11:27,751      INFO  obico.app - print event: PrintResumed (1725763358)
+2024-09-07 23:15:36,097      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-07 23:15:36,099      INFO  obico.app - print event: PrintPaused (1725763358)
+2024-09-07 23:15:36,685      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-07 23:15:36,687      INFO  obico.app - print event: PrintResumed (1725763358)
+2024-09-07 23:16:37,672      INFO  obico.app - detected state change: Printing -> Operational
+2024-09-07 23:16:37,676     ERROR  obico.app - unexpected state "standby", please report.
+2024-09-07 23:20:56,977      INFO  obico.app - detected state change: Operational -> Printing
+2024-09-07 23:20:59,773      INFO  obico.app - print event: PrintStarted (1725765656)
+2024-09-07 23:21:28,610   WARNING  obico.server_conn - Failed to capture jpeg - HTTPSConnectionPool(host='obico.snuffy2.com', port=443): Max retries exceeded with url: /api/v1/octo/pic/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0xffff945d8d90>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+2024-09-07 23:22:40,261      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-07 23:22:40,263      INFO  obico.app - print event: PrintPaused (1725765656)
+2024-09-07 23:22:41,006      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-07 23:22:41,007      INFO  obico.app - print event: PrintResumed (1725765656)
+2024-09-07 23:25:02,618   WARNING  obico.server_conn - Failed to capture jpeg - HTTPSConnectionPool(host='obico.snuffy2.com', port=443): Max retries exceeded with url: /api/v1/octo/pic/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0xffff945cd610>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+2024-09-07 23:26:09,494   WARNING  obico.server_conn - Failed to capture jpeg - HTTPSConnectionPool(host='obico.snuffy2.com', port=443): Max retries exceeded with url: /api/v1/octo/pic/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0xffff945cfe90>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+2024-09-07 23:31:47,846      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-07 23:31:47,847      INFO  obico.app - print event: PrintPaused (1725765656)
+2024-09-07 23:31:48,350      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-07 23:31:48,357      INFO  obico.app - print event: PrintResumed (1725765656)
+2024-09-07 23:35:56,357   WARNING  obico.server_conn - Failed to capture jpeg - HTTPSConnectionPool(host='obico.snuffy2.com', port=443): Max retries exceeded with url: /api/v1/octo/pic/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0xffff945d9550>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+2024-09-07 23:38:25,479      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-07 23:38:25,481      INFO  obico.app - print event: PrintPaused (1725765656)
+2024-09-07 23:38:26,246      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-07 23:38:26,248      INFO  obico.app - print event: PrintResumed (1725765656)
+2024-09-07 23:43:13,447   WARNING  obico.server_conn - Failed to capture jpeg - HTTPSConnectionPool(host='obico.snuffy2.com', port=443): Max retries exceeded with url: /api/v1/octo/pic/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0xffff945dad10>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+2024-09-07 23:44:31,564      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-07 23:44:31,565      INFO  obico.app - print event: PrintPaused (1725765656)
+2024-09-07 23:44:31,815      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-07 23:44:31,817      INFO  obico.app - print event: PrintResumed (1725765656)
+2024-09-07 23:47:41,905   WARNING  obico.server_conn - Failed to capture jpeg - HTTPSConnectionPool(host='obico.snuffy2.com', port=443): Max retries exceeded with url: /api/v1/octo/pic/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0xffff945d8f50>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+2024-09-07 23:49:55,742      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-07 23:49:55,749      INFO  obico.app - print event: PrintPaused (1725765656)
+2024-09-07 23:49:56,491      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-07 23:49:56,493      INFO  obico.app - print event: PrintResumed (1725765656)
+2024-09-07 23:53:37,965      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-07 23:53:37,968      INFO  obico.app - print event: PrintPaused (1725765656)
+2024-09-07 23:53:38,736      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-07 23:53:38,737      INFO  obico.app - print event: PrintResumed (1725765656)
+2024-09-07 23:54:03,766   WARNING  obico.server_conn - Failed to capture jpeg - HTTPSConnectionPool(host='obico.snuffy2.com', port=443): Max retries exceeded with url: /api/v1/octo/pic/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0xffff945d8f90>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+2024-09-07 23:55:44,960      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-07 23:55:44,962      INFO  obico.app - print event: PrintPaused (1725765656)
+2024-09-07 23:55:45,463      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-07 23:55:45,465      INFO  obico.app - print event: PrintResumed (1725765656)
+2024-09-07 23:59:50,155      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-07 23:59:50,157      INFO  obico.app - print event: PrintPaused (1725765656)
+2024-09-07 23:59:50,918      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-07 23:59:50,920      INFO  obico.app - print event: PrintResumed (1725765656)
