@@ -24509,3 +24509,8 @@ moonraker_obico.ws.WebSocketConnectionException: Not connected to websocket serv
 2024-09-08 14:31:02,377      INFO  obico.app - print event: PrintResumed (1725812972)
 2024-09-08 14:32:14,341      INFO  obico.app - detected state change: Printing -> Operational
 2024-09-08 14:32:14,347      INFO  obico.app - print event: PrintDone (1725812972)
+2024-09-09 03:01:17,324   WARNING  obico.ws - WS Closed - None - None
+2024-09-09 03:01:25,269   WARNING  obico.ws - WS Closed - None - None
+2024-09-09 03:03:24,941   WARNING  obico.server_conn - Not connected to websocket server after 120s
+2024-09-09 03:03:24,943     ERROR  obico.utils - Attempt 1 - backing off 0.304762 seconds: Not connected to websocket server after 120s
+2024-09-09 04:46:00,589   WARNING  obico.ws - WS Closed - None - None
