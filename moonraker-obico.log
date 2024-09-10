@@ -25474,3 +25474,951 @@ moonraker_obico.ws.WebSocketConnectionException: Not connected to websocket serv
 2024-09-10 00:32:32,775   WARNING  obico.ws - WS Closed - None - None
 2024-09-10 00:34:33,221   WARNING  obico.server_conn - Not connected to websocket server after 120s
 2024-09-10 00:34:33,222     ERROR  obico.utils - Attempt 1 - backing off 0.168386 seconds: Not connected to websocket server after 120s
+2024-09-10 07:57:59,562      INFO  obico.app - detected state change: Operational -> Printing
+2024-09-10 07:58:00,349      INFO  obico.app - print event: PrintStarted (1725969479)
+2024-09-10 08:01:59,710      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:01:59,717      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:02:00,209      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:02:00,211      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:03:26,208      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:03:26,209      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:03:26,712      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:03:26,720      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:04:22,887      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:04:22,889      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:04:23,633      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:04:23,635      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:05:12,784      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:05:12,785      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:05:13,284      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:05:13,285      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:05:55,164      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:05:55,165      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:05:55,668      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:05:55,675      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:06:17,745      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:06:17,747      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:06:18,753      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:06:18,755      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:06:39,561      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:06:39,562      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:06:39,872      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:06:39,873      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:07:00,684      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:07:00,686      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:07:01,049      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:07:01,050      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:07:20,337      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:07:20,339      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:07:20,885      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:07:20,887      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:07:39,425      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:07:39,427      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:07:40,058      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:07:40,059      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:07:57,885      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:07:57,890      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:07:58,661      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:07:58,664      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:08:16,756      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:08:16,757      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:08:17,350      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:08:17,351      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:08:35,431      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:08:35,433      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:08:35,974      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:08:35,976      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:08:54,535      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:08:54,537      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:08:55,048      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:08:55,049      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:09:14,343      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:09:14,344      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:09:14,903      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:09:14,904      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:09:33,724      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:09:33,725      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:09:34,040      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:09:34,042      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:09:52,831      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:09:52,833      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:09:53,355      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:09:53,357      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:10:11,936      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:10:11,938      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:10:12,462      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:10:12,464      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:10:30,801      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:10:30,802      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:10:31,315      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:10:31,317      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:10:49,645      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:10:49,647      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:10:50,041      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:10:50,043      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:11:08,838      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:11:08,841      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:11:09,344      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:11:09,346      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:11:27,940      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:11:27,942      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:11:28,518      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:11:28,520      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:11:46,576      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:11:46,577      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:11:47,035      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:11:47,037      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:12:05,457      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:12:05,459      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:12:06,086      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:12:06,094      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:12:24,673      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:12:24,674      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:12:25,218      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:12:25,220      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:12:43,769      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:12:43,770      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:12:44,038      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:12:44,039      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:13:02,585      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:13:02,586      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:13:02,844      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:13:02,850      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:13:21,393      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:13:21,395      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:13:21,927      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:13:21,929      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:13:41,485      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:13:41,487      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:13:42,135      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:13:42,137      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:14:01,436      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:14:01,438      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:14:01,995      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:14:01,997      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:14:21,570      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:14:21,571      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:14:22,101      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:14:22,104      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:14:40,921      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:14:40,922      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:14:41,783      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:14:41,785      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:15:00,853      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:15:00,854      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:15:01,108      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:15:01,109      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:15:20,668      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:15:20,670      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:15:21,190      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:15:21,192      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:15:39,998      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:15:40,005      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:15:40,531      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:15:40,532      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:15:59,085      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:15:59,088      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:15:59,854      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:15:59,856      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:16:19,956      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:16:19,957      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:16:20,565      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:16:20,566      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:16:41,136      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:16:41,139      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:16:42,010      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:16:42,013      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:16:59,581      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:16:59,582      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:17:00,150      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:17:00,154      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:17:16,994      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:17:16,997      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:17:17,748      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:17:17,750      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:17:34,802      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:17:34,804      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:17:35,077      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:17:35,078      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:17:52,147      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:17:52,148      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:17:52,990      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:17:52,992      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:18:09,803      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:18:09,805      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:18:10,136      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:18:10,143      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:18:27,169      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:18:27,171      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:18:27,670      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:18:27,672      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:18:44,005      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:18:44,010      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:18:44,837      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:18:44,839      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:19:01,152      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:19:01,159      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:19:01,778      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:19:01,779      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:19:17,829      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:19:17,830      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:19:18,139      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:19:18,142      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:19:34,201      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:19:34,203      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:19:34,733      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:19:34,734      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:19:50,031      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:19:50,034      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:19:50,882      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:19:50,883      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:20:06,188      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:20:06,190      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:20:06,702      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:20:06,705      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:20:22,014      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:20:22,015      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:20:22,546      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:20:22,547      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:20:37,107      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:20:37,109      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:20:37,935      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:20:37,937      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:20:52,985      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:20:52,987      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:20:53,310      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:20:53,312      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:21:08,119      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:21:08,120      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:21:09,120      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:21:09,121      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:21:23,912      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:21:23,915      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:21:24,189      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:21:24,192      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:21:38,977      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:21:38,979      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:21:39,254      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:21:39,256      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:21:54,055      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:21:54,057      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:21:54,821      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:21:54,823      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:22:09,111      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:22:09,113      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:22:09,884      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:22:09,886      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:22:24,204      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:22:24,206      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:22:24,940      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:22:24,942      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:22:39,235      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:22:39,237      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:22:39,735      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:22:39,737      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:22:54,026      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:22:54,028      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:22:54,281      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:22:54,282      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:23:08,568      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:23:08,569      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:23:09,072      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:23:09,074      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:23:22,856      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:23:22,859      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:23:23,385      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:23:23,386      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:23:37,172      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:23:37,173      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:23:37,691      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:23:37,692      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:23:51,225      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:23:51,227      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:23:51,986      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:23:51,987      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:24:05,277      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:24:05,280      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:24:05,790      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:24:05,792      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:24:19,073      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:24:19,080      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:24:19,327      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:24:19,329      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:24:32,365      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:24:32,367      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:24:33,166      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:24:33,173      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:24:46,211      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:24:46,213      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:24:46,727      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:24:46,729      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:24:59,749      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:24:59,750      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:25:00,253      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:25:00,261      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:25:13,286      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:25:13,287      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:25:13,790      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:25:13,792      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:25:26,338      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:25:26,339      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:25:27,340      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:25:27,342      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:25:39,875      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:25:39,876      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:25:40,379      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:25:40,381      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:25:52,907      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:25:52,909      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:25:53,418      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:25:53,421      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:26:05,974      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:26:05,976      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:26:06,513      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:26:06,520      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:26:19,053      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:26:19,055      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:26:19,305      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:26:19,307      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:26:31,836      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:26:31,837      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:26:32,365      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:26:32,372      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:26:44,414      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:26:44,417      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:26:45,167      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:26:45,170      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:26:57,209      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:26:57,210      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:26:57,953      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:26:57,954      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:27:09,983      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:27:09,985      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:27:10,736      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:27:10,738      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:27:23,020      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:27:23,021      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:27:23,323      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:27:23,325      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:27:35,859      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:27:35,861      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:27:36,371      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:27:36,377      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:27:48,151      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:27:48,152      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:27:48,486      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:27:48,487      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:28:00,763      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:28:00,764      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:28:01,266      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:28:01,268      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:28:13,041      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:28:13,043      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:28:13,338      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:28:13,340      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:28:25,367      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:28:25,369      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:28:25,931      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:28:25,932      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:28:37,465      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:28:37,466      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:28:38,226      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:28:38,233      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:28:49,756      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:28:49,758      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:28:50,260      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:28:50,262      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:29:01,786      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:29:01,788      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:29:02,290      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:29:02,292      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:29:13,341      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:29:13,342      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:29:14,160      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:29:14,162      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:29:25,442      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:29:25,445      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:29:26,192      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:29:26,194      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:29:37,490      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:29:37,491      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:29:38,233      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:29:38,235      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:29:49,268      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:29:49,270      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:29:50,054      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:29:50,056      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:30:01,337      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:30:01,339      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:30:01,907      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:30:01,909      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:30:13,186      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:30:13,188      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:30:13,516      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:30:13,517      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:30:25,039      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:30:25,041      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:30:25,361      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:30:25,363      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:30:36,883      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:30:36,885      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:30:37,428      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:30:37,431      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:30:48,448      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:30:48,450      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:30:49,199      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:30:49,201      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:31:00,478      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:31:00,486      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:31:00,979      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:31:00,981      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:31:12,009      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:31:12,011      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:31:12,605      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:31:12,613      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:31:23,877      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:31:23,878      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:31:24,381      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:31:24,387      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:31:35,909      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:31:35,911      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:31:36,428      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:31:36,430      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:31:47,969      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:31:47,970      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:31:48,472      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:31:48,473      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:31:59,534      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:31:59,535      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:32:00,424      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:32:00,426      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:32:11,953      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:32:11,955      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:32:12,458      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:32:12,459      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:32:23,986      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:32:23,987      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:32:24,490      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:32:24,497      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:32:35,521      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:32:35,523      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:32:36,521      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:32:36,528      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:32:48,056      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:32:48,058      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:32:48,580      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:32:48,587      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:33:00,105      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:33:00,107      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:33:00,361      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:33:00,363      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:33:12,141      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:33:12,143      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:33:12,645      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:33:12,652      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:33:23,922      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:33:23,924      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:33:24,521      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:33:24,529      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:33:36,048      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:33:36,051      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:33:36,553      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:33:36,560      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:33:47,580      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:33:47,587      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:33:48,081      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:33:48,083      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:33:59,114      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:33:59,116      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:33:59,437      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:33:59,438      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:34:10,469      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:34:10,472      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:34:11,278      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:34:11,279      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:34:22,558      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:34:22,565      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:34:23,058      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:34:23,060      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:34:34,343      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:34:34,344      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:34:34,601      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:34:34,603      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:34:46,128      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:34:46,131      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:34:46,387      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:34:46,390      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:34:57,913      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:34:57,914      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:34:58,421      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:34:58,428      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:35:09,474      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:35:09,475      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:35:10,231      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:35:10,233      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:35:21,513      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:35:21,514      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:35:22,094      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:35:22,097      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:35:33,392      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:35:33,394      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:35:33,897      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:35:33,898      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:35:45,427      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:35:45,428      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:35:45,928      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:35:45,930      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:35:57,211      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:35:57,214      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:35:57,719      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:35:57,721      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:36:09,247      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:36:09,249      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:36:09,501      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:36:09,503      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:36:21,283      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:36:21,284      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:36:21,634      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:36:21,636      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:36:33,664      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:36:33,665      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:36:34,415      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:36:34,416      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:36:46,198      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:36:46,200      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:36:46,454      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:36:46,455      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:36:58,225      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:36:58,227      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:36:58,484      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:36:58,485      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:37:10,510      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:37:10,517      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:37:11,011      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:37:11,012      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:37:22,546      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:37:22,547      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:37:23,295      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:37:23,297      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:37:35,076      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:37:35,079      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:37:35,582      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:37:35,583      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:37:47,368      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:37:47,370      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:37:47,737      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:37:47,739      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:37:59,520      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:37:59,521      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:38:00,285      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:38:00,291      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:38:12,071      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:38:12,072      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:38:12,594      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:38:12,596      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:38:24,376      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:38:24,377      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:38:24,703      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:38:24,704      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:38:36,498      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:38:36,499      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:38:37,270      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:38:37,271      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:38:49,066      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:38:49,069      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:38:49,632      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:38:49,634      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:39:01,409      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:39:01,411      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:39:01,665      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:39:01,667      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:39:13,696      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:39:13,702      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:39:14,283      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:39:14,285      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:39:26,069      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:39:26,072      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:39:26,653      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:39:26,655      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:39:38,441      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:39:38,442      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:39:38,698      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:39:38,699      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:39:50,728      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:39:50,729      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:39:51,231      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:39:51,232      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:40:03,278      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:40:03,280      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:40:03,520      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:40:03,522      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:40:15,555      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:40:15,557      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:40:16,301      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:40:16,303      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:40:28,333      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:40:28,334      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:40:28,632      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:40:28,633      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:40:40,667      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:40:40,669      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:40:41,480      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:40:41,482      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:40:53,271      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:40:53,273      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:40:53,796      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:40:53,798      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:41:05,605      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:41:05,607      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:41:06,399      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:41:06,400      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:41:18,443      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:41:18,445      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:41:19,193      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:41:19,195      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:41:31,229      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:41:31,231      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:41:31,747      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:41:31,754      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:41:43,536      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:41:43,537      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:41:44,327      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:41:44,329      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:41:56,611      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:41:56,612      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:41:57,112      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:41:57,114      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:42:09,653      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:42:09,655      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:42:10,155      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:42:10,156      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:42:22,700      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:42:22,701      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:42:23,451      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:42:23,452      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:42:36,247      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:42:36,252      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:42:36,750      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:42:36,757      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:42:49,527      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:42:49,529      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:42:49,783      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:42:49,785      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:43:02,564      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:43:02,566      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:43:03,315      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:43:03,316      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:43:15,599      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:43:15,601      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:43:16,379      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:43:16,381      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:43:28,671      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:43:28,672      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:43:29,468      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:43:29,469      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:43:42,261      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:43:42,269      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:43:42,764      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:43:42,766      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:43:55,307      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:43:55,309      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:43:55,861      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:43:55,862      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:44:08,651      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:44:08,653      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:44:09,418      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:44:09,420      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:44:22,702      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:44:22,710      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:44:23,204      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:44:23,206      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:44:36,251      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:44:36,253      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:44:36,754      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:44:36,757      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:44:49,799      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:44:49,801      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:44:50,301      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:44:50,303      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:45:03,349      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:45:03,351      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:45:03,605      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:45:03,607      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:45:17,169      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:45:17,170      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:45:17,672      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:45:17,673      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:45:30,712      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:45:30,714      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:45:31,216      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:45:31,218      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:45:44,502      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:45:44,503      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:45:44,758      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:45:44,760      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:45:58,293      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:45:58,294      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:45:58,801      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:45:58,803      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:46:11,842      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:46:11,844      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:46:12,391      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:46:12,393      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:46:25,677      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:46:25,678      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:46:26,243      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:46:26,245      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:46:38,778      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:46:38,779      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:46:39,581      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:46:39,582      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:46:52,868      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:46:52,870      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:46:53,369      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:46:53,370      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:47:06,660      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:47:06,663      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:47:06,911      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:47:06,913      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:47:20,456      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:47:20,458      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:47:20,714      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:47:20,716      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:47:34,252      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:47:34,253      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:47:34,778      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:47:34,785      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:47:47,823      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:47:47,824      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:47:48,573      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:47:48,575      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:48:01,866      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:48:01,868      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:48:02,367      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:48:02,368      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:48:15,648      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:48:15,649      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:48:15,907      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:48:15,908      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:48:29,433      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:48:29,434      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:48:30,001      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:48:30,003      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:48:43,785      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:48:43,786      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:48:44,286      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:48:44,289      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:48:57,831      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:48:57,833      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:48:58,582      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:48:58,583      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:49:12,363      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:49:12,364      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:49:12,867      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:49:12,874      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:49:25,912      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:49:25,914      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:49:26,712      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:49:26,714      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:49:40,002      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:49:40,003      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:49:40,502      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:49:40,504      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:49:53,553      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:49:53,555      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:49:54,080      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:49:54,082      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:50:07,624      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:50:07,627      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:50:07,930      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:50:07,932      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:50:21,709      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:50:21,710      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:50:22,011      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:50:22,013      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:50:35,787      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:50:35,789      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:50:36,542      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:50:36,543      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:50:50,330      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:50:50,332      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:50:50,835      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:50:50,841      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:51:04,884      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:51:04,886      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:51:05,456      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:51:05,458      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:51:19,486      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:51:19,488      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:51:20,009      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:51:20,010      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:51:34,545      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:51:34,547      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:51:35,099      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:51:35,105      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:51:49,620      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:51:49,621      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:51:49,878      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:51:49,880      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:52:04,420      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:52:04,422      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:52:04,929      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:52:04,936      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:52:18,971      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:52:18,972      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:52:19,742      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:52:19,744      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:52:34,033      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:52:34,034      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:52:34,781      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:52:34,783      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:52:49,070      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:52:49,072      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:52:49,638      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:52:49,640      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:53:03,928      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:53:03,930      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:53:04,524      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:53:04,528      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:53:19,080      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:53:19,087      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:53:19,595      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:53:19,596      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:53:33,889      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:53:33,890      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:53:34,639      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:53:34,641      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:53:48,932      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:53:48,934      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:53:49,680      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:53:49,684      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:54:03,989      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:54:03,990      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:54:04,569      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:54:04,571      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:54:18,873      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:54:18,874      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:54:19,375      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:54:19,377      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:54:35,419      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:54:35,429      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:54:35,945      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:54:35,952      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:54:55,045      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:54:55,046      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:54:55,794      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:54:55,795      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:55:14,853      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:55:14,854      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:55:15,122      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:55:15,125      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:55:33,924      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:55:33,925      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:55:34,460      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:55:34,463      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:55:50,775      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:55:50,777      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:55:51,032      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:55:51,033      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:55:58,044      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:55:58,053      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:55:58,545      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:55:58,546      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:56:04,811      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:56:04,812      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:56:05,067      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:56:05,068      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:56:11,585      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:56:11,589      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:56:12,083      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:56:12,085      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:56:18,104      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:56:18,105      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:56:18,851      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:56:18,852      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:56:25,116      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:56:25,117      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:56:25,616      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:56:25,618      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:56:31,883      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:56:31,884      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:56:32,140      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:56:32,142      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:56:38,650      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:56:38,652      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:56:39,156      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:56:39,158      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:56:45,430      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:56:45,432      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:56:45,922      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:56:45,923      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:56:51,937      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:56:51,938      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:56:52,686      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:56:52,688      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:56:58,953      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:56:58,955      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:56:59,455      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:56:59,456      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:57:05,722      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:57:05,723      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:57:05,977      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:57:05,979      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:57:12,488      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:57:12,489      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:57:12,993      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:57:13,000      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:57:19,509      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:57:19,510      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:57:20,014      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:57:20,016      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:57:26,035      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:57:26,038      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:57:26,780      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:57:26,782      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:57:33,050      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:57:33,057      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:57:33,550      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:57:33,552      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:57:39,816      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:57:39,818      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:57:40,072      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:57:40,074      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:57:46,092      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:57:46,093      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:57:46,843      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:57:46,844      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:57:52,859      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:57:52,861      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:57:53,114      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:57:53,116      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:57:59,130      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:57:59,131      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:57:59,875      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:57:59,877      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:58:05,146      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:58:05,147      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:58:05,889      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:58:05,890      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:58:12,658      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:58:12,660      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:58:13,158      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:58:13,165      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:58:19,176      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:58:19,178      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:58:19,672      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:58:19,674      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:58:25,187      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:58:25,194      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:58:25,687      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:58:25,689      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:58:30,700      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:58:30,701      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:58:31,203      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:58:31,204      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:58:35,214      INFO  obico.app - detected state change: Printing -> Paused
+2024-09-10 08:58:35,216      INFO  obico.app - print event: PrintPaused (1725969479)
+2024-09-10 08:58:35,715      INFO  obico.app - detected state change: Paused -> Printing
+2024-09-10 08:58:35,717      INFO  obico.app - print event: PrintResumed (1725969479)
+2024-09-10 08:58:39,986      INFO  obico.app - detected state change: Printing -> Operational
+2024-09-10 08:58:39,989      INFO  obico.app - print event: PrintDone (1725969479)
