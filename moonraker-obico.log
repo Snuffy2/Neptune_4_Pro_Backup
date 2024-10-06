@@ -19788,3 +19788,343 @@
 2024-10-06 02:23:11,986   WARNING  obico.webcam_stream - Failed to capture jpeg - 502 Server Error: Bad Gateway for url: http://10.100.100.35/webcam/?action=snapshot
 2024-10-06 02:23:14,102   WARNING  obico.webcam_stream - Failed to capture jpeg - 502 Server Error: Bad Gateway for url: http://10.100.100.35/webcam/?action=snapshot
 2024-10-06 02:23:15,370   WARNING  obico.webcam_stream - Failed to capture jpeg - 502 Server Error: Bad Gateway for url: http://10.100.100.35/webcam/?action=snapshot
+2024-10-06 11:11:59,734      INFO  obico.app - detected state change: Paused -> Printing
+2024-10-06 11:11:59,737      INFO  obico.app - print event: PrintResumed (1728186983)
+2024-10-06 11:12:01,004   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:12:11,590   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:12:11,765      INFO  obico.app - detected state change: Printing -> Paused
+2024-10-06 11:12:11,767      INFO  obico.app - print event: PrintPaused (1728186983)
+2024-10-06 11:12:12,268      INFO  obico.app - detected state change: Paused -> Printing
+2024-10-06 11:12:12,275      INFO  obico.app - print event: PrintResumed (1728186983)
+2024-10-06 11:12:22,196   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:12:32,789   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:12:43,359   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:12:50,132      INFO  obico.app - detected state change: Printing -> Paused
+2024-10-06 11:12:50,134      INFO  obico.app - print event: PrintPaused (1728186983)
+2024-10-06 11:12:50,633      INFO  obico.app - detected state change: Paused -> Printing
+2024-10-06 11:12:50,634      INFO  obico.app - print event: PrintResumed (1728186983)
+2024-10-06 11:12:53,967   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:13:04,562   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:13:15,155   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:13:25,737   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:13:28,748      INFO  obico.app - detected state change: Printing -> Paused
+2024-10-06 11:13:28,750      INFO  obico.app - print event: PrintPaused (1728186983)
+2024-10-06 11:13:29,252      INFO  obico.app - detected state change: Paused -> Printing
+2024-10-06 11:13:29,254      INFO  obico.app - print event: PrintResumed (1728186983)
+2024-10-06 11:13:36,324   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:13:46,910   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:13:57,526   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:14:07,127      INFO  obico.app - detected state change: Printing -> Paused
+2024-10-06 11:14:07,131      INFO  obico.app - print event: PrintPaused (1728186983)
+2024-10-06 11:14:07,877      INFO  obico.app - detected state change: Paused -> Printing
+2024-10-06 11:14:07,879      INFO  obico.app - print event: PrintResumed (1728186983)
+2024-10-06 11:14:09,100   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:14:19,690   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:14:30,312   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:14:40,906   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:14:45,742      INFO  obico.app - detected state change: Printing -> Paused
+2024-10-06 11:14:45,743      INFO  obico.app - print event: PrintPaused (1728186983)
+2024-10-06 11:14:46,244      INFO  obico.app - detected state change: Paused -> Printing
+2024-10-06 11:14:46,251      INFO  obico.app - print event: PrintResumed (1728186983)
+2024-10-06 11:14:51,489   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:14:56,023      INFO  obico.app - detected state change: Printing -> Paused
+2024-10-06 11:14:56,024      INFO  obico.app - print event: PrintPaused (1728186983)
+2024-10-06 11:14:56,277      INFO  obico.app - detected state change: Paused -> Printing
+2024-10-06 11:14:56,279      INFO  obico.app - print event: PrintResumed (1728186983)
+2024-10-06 11:15:02,112   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:15:06,304      INFO  obico.app - detected state change: Printing -> Paused
+2024-10-06 11:15:06,305      INFO  obico.app - print event: PrintPaused (1728186983)
+2024-10-06 11:15:07,052      INFO  obico.app - detected state change: Paused -> Printing
+2024-10-06 11:15:07,055      INFO  obico.app - print event: PrintResumed (1728186983)
+2024-10-06 11:15:12,720   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:15:16,828      INFO  obico.app - detected state change: Printing -> Paused
+2024-10-06 11:15:16,830      INFO  obico.app - print event: PrintPaused (1728186983)
+2024-10-06 11:15:17,349      INFO  obico.app - detected state change: Paused -> Printing
+2024-10-06 11:15:17,350      INFO  obico.app - print event: PrintResumed (1728186983)
+2024-10-06 11:15:23,313   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:15:27,131      INFO  obico.app - detected state change: Printing -> Paused
+2024-10-06 11:15:27,134      INFO  obico.app - print event: PrintPaused (1728186983)
+2024-10-06 11:15:27,875      INFO  obico.app - detected state change: Paused -> Printing
+2024-10-06 11:15:27,876      INFO  obico.app - print event: PrintResumed (1728186983)
+2024-10-06 11:15:33,930   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:15:38,157      INFO  obico.app - detected state change: Printing -> Operational
+2024-10-06 11:15:38,159      INFO  obico.app - print event: PrintDone (1728186983)
+2024-10-06 11:22:55,362      INFO  obico.app - detected state change: Operational -> Printing
+2024-10-06 11:22:55,977      INFO  obico.app - print event: PrintStarted (1728228175)
+2024-10-06 11:23:07,423   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:23:18,010   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:23:28,616   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:23:39,183   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:23:49,742   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:24:00,357   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:24:10,916   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:24:21,488   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:24:32,070   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:24:42,641   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:24:53,212   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:25:03,780   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:25:14,332   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:25:24,895   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:25:35,492   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:25:46,072   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:25:56,641   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:26:07,234   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:26:17,812   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:26:28,375   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:26:38,951   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:26:49,524   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:27:00,100   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:27:10,687   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:27:21,259   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:27:31,838   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:27:42,430   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:27:53,019   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:28:03,657   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:28:14,244   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:28:24,816   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:28:35,399   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:28:45,963   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:28:56,526   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:29:07,086   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:29:17,693   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:29:28,300   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:29:38,925   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:29:49,516   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:30:00,119   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:30:10,742   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:30:15,629      INFO  obico.app - detected state change: Printing -> Operational
+2024-10-06 11:30:15,630   WARNING  obico.app - unexpected state "standby", please report.
+2024-10-06 11:30:47,725      INFO  obico.app - detected state change: Operational -> Printing
+2024-10-06 11:30:48,428      INFO  obico.app - print event: PrintStarted (1728228647)
+2024-10-06 11:31:00,021   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:31:10,618   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:31:21,200   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:31:31,844   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:31:42,446   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:31:53,050   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:32:03,660   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:32:06,692      INFO  obico.app - detected state change: Printing -> Paused
+2024-10-06 11:32:06,693      INFO  obico.app - print event: PrintPaused (1728228647)
+2024-10-06 11:32:07,442      INFO  obico.app - detected state change: Paused -> Printing
+2024-10-06 11:32:07,444      INFO  obico.app - print event: PrintResumed (1728228647)
+2024-10-06 11:32:14,287   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:32:24,873   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:32:35,472   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:32:46,122   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:32:56,725   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:33:07,330   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:33:17,920   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:33:28,536   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:33:39,116   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:33:49,725   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:34:00,398   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:34:11,046   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:34:21,668   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:34:32,269   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:34:42,996   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:34:53,621   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:35:04,265   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:35:14,869   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:35:25,492   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:35:36,115   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:35:46,717   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:35:57,312   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:36:07,915   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:36:18,518   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:36:29,117   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:36:39,753   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:36:50,417   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:36:52,497      INFO  obico.app - detected state change: Printing -> Paused
+2024-10-06 11:36:52,498      INFO  obico.app - print event: PrintPaused (1728228647)
+2024-10-06 11:36:52,752      INFO  obico.app - detected state change: Paused -> Printing
+2024-10-06 11:36:52,753      INFO  obico.app - print event: PrintResumed (1728228647)
+2024-10-06 11:37:01,040   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:37:11,693   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:37:22,333   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:37:32,992   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:37:43,593   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:37:54,255   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:38:04,872   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:38:15,501   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:38:26,124   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:38:36,730   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:38:47,383   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:38:57,979   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:39:08,610   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:39:19,228   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:39:29,830   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:39:40,424   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:39:51,028   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:40:01,626   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:40:12,223   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:40:22,810   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:40:33,397   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:40:44,005   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:40:54,626   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:41:05,198   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:41:15,773   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:41:26,349   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:41:27,766      INFO  obico.app - detected state change: Printing -> Paused
+2024-10-06 11:41:27,773      INFO  obico.app - print event: PrintPaused (1728228647)
+2024-10-06 11:41:28,265      INFO  obico.app - detected state change: Paused -> Printing
+2024-10-06 11:41:28,266      INFO  obico.app - print event: PrintResumed (1728228647)
+2024-10-06 11:41:36,935   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:41:47,527   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:41:58,141   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:42:08,739   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:42:19,323   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:42:29,913   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:42:40,516   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:42:51,109   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:43:01,708   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:43:12,282   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:43:22,891   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:43:33,498   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:43:44,080   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:43:54,673   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:44:05,254   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:44:15,826   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:44:26,418   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:44:37,046   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:44:47,640   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:44:58,252   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:45:08,908   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:45:19,490   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:45:30,106   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:45:31,458      INFO  obico.app - detected state change: Printing -> Paused
+2024-10-06 11:45:31,459      INFO  obico.app - print event: PrintPaused (1728228647)
+2024-10-06 11:45:31,962      INFO  obico.app - detected state change: Paused -> Printing
+2024-10-06 11:45:31,964      INFO  obico.app - print event: PrintResumed (1728228647)
+2024-10-06 11:45:40,715   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:45:51,302   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:46:01,946   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:46:12,571   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:46:23,168   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:46:33,781   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:46:44,365   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:46:54,976   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:47:05,584   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:47:16,195   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:47:26,813   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:47:37,430   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:47:48,063   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:47:58,676   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:48:09,300   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:48:19,914   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:48:30,519   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:48:41,140   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:48:45,020      INFO  obico.app - detected state change: Printing -> Paused
+2024-10-06 11:48:45,023      INFO  obico.app - print event: PrintPaused (1728228647)
+2024-10-06 11:48:45,784      INFO  obico.app - detected state change: Paused -> Printing
+2024-10-06 11:48:45,786      INFO  obico.app - print event: PrintResumed (1728228647)
+2024-10-06 11:48:51,755   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:49:02,384   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:49:13,009   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:49:23,602   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:49:34,196   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:49:43,985      INFO  obico.app - detected state change: Printing -> Paused
+2024-10-06 11:49:43,988      INFO  obico.app - print event: PrintPaused (1728228647)
+2024-10-06 11:49:44,787      INFO  obico.app - detected state change: Paused -> Printing
+2024-10-06 11:49:44,791      INFO  obico.app - print event: PrintResumed (1728228647)
+2024-10-06 11:49:45,795   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:49:56,424   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:50:07,043   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:50:17,658   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:50:28,267   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:50:36,103      INFO  obico.app - detected state change: Printing -> Paused
+2024-10-06 11:50:36,106      INFO  obico.app - print event: PrintPaused (1728228647)
+2024-10-06 11:50:36,874      INFO  obico.app - detected state change: Paused -> Printing
+2024-10-06 11:50:36,875      INFO  obico.app - print event: PrintResumed (1728228647)
+2024-10-06 11:50:38,864   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:50:49,503   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:51:00,198   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:51:10,799   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:51:21,425   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:51:23,795      INFO  obico.app - detected state change: Printing -> Paused
+2024-10-06 11:51:23,796      INFO  obico.app - print event: PrintPaused (1728228647)
+2024-10-06 11:51:24,123      INFO  obico.app - detected state change: Paused -> Printing
+2024-10-06 11:51:24,125      INFO  obico.app - print event: PrintResumed (1728228647)
+2024-10-06 11:51:32,059   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:51:42,668   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:51:53,322   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:52:04,007   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:52:07,829      INFO  obico.app - detected state change: Printing -> Paused
+2024-10-06 11:52:07,830      INFO  obico.app - print event: PrintPaused (1728228647)
+2024-10-06 11:52:08,116      INFO  obico.app - detected state change: Paused -> Printing
+2024-10-06 11:52:08,118      INFO  obico.app - print event: PrintResumed (1728228647)
+2024-10-06 11:52:14,689   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:52:25,336   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:52:36,021   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:52:46,644   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:52:50,027      INFO  obico.app - detected state change: Printing -> Paused
+2024-10-06 11:52:50,035      INFO  obico.app - print event: PrintPaused (1728228647)
+2024-10-06 11:52:50,638      INFO  obico.app - detected state change: Paused -> Printing
+2024-10-06 11:52:50,645      INFO  obico.app - print event: PrintResumed (1728228647)
+2024-10-06 11:52:57,298   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:53:08,281   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:53:19,269   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:53:29,920   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:53:32,105      INFO  obico.app - detected state change: Printing -> Paused
+2024-10-06 11:53:32,108      INFO  obico.app - print event: PrintPaused (1728228647)
+2024-10-06 11:53:33,008      INFO  obico.app - detected state change: Paused -> Printing
+2024-10-06 11:53:33,010      INFO  obico.app - print event: PrintResumed (1728228647)
+2024-10-06 11:53:40,559   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:53:51,187   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:54:01,792   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:54:12,425   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:54:15,021      INFO  obico.app - detected state change: Printing -> Paused
+2024-10-06 11:54:15,028      INFO  obico.app - print event: PrintPaused (1728228647)
+2024-10-06 11:54:15,567      INFO  obico.app - detected state change: Paused -> Printing
+2024-10-06 11:54:15,568      INFO  obico.app - print event: PrintResumed (1728228647)
+2024-10-06 11:54:23,058   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:54:33,655   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:54:44,259   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:54:54,882   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:55:04,264      INFO  obico.app - detected state change: Printing -> Paused
+2024-10-06 11:55:04,266      INFO  obico.app - print event: PrintPaused (1728228647)
+2024-10-06 11:55:05,089      INFO  obico.app - detected state change: Paused -> Printing
+2024-10-06 11:55:05,091      INFO  obico.app - print event: PrintResumed (1728228647)
+2024-10-06 11:55:06,497   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:55:17,122   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:55:27,781   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:55:38,456   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:55:49,160   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:55:55,815      INFO  obico.app - detected state change: Printing -> Paused
+2024-10-06 11:55:55,816      INFO  obico.app - print event: PrintPaused (1728228647)
+2024-10-06 11:55:56,356      INFO  obico.app - detected state change: Paused -> Printing
+2024-10-06 11:55:56,358      INFO  obico.app - print event: PrintResumed (1728228647)
+2024-10-06 11:55:59,896   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:56:10,559   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:56:21,240   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:56:31,989   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:56:42,681   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:56:47,824      INFO  obico.app - detected state change: Printing -> Paused
+2024-10-06 11:56:47,825      INFO  obico.app - print event: PrintPaused (1728228647)
+2024-10-06 11:56:48,535      INFO  obico.app - detected state change: Paused -> Printing
+2024-10-06 11:56:48,536      INFO  obico.app - print event: PrintResumed (1728228647)
+2024-10-06 11:56:53,337   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:57:03,988   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:57:14,610   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:57:25,241   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:57:35,859   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:57:38,341      INFO  obico.app - detected state change: Printing -> Paused
+2024-10-06 11:57:38,343      INFO  obico.app - print event: PrintPaused (1728228647)
+2024-10-06 11:57:39,272      INFO  obico.app - detected state change: Paused -> Printing
+2024-10-06 11:57:39,274      INFO  obico.app - print event: PrintResumed (1728228647)
+2024-10-06 11:57:46,488   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:57:57,135   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:58:07,763   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:58:18,384   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:58:24,721      INFO  obico.app - detected state change: Printing -> Paused
+2024-10-06 11:58:24,722      INFO  obico.app - print event: PrintPaused (1728228647)
+2024-10-06 11:58:25,323      INFO  obico.app - detected state change: Paused -> Printing
+2024-10-06 11:58:25,325      INFO  obico.app - print event: PrintResumed (1728228647)
+2024-10-06 11:58:29,005   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:58:39,684   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:58:50,258   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:59:00,866   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:59:11,497   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:59:22,123   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:59:32,772   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:59:43,449   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
+2024-10-06 11:59:54,148   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
