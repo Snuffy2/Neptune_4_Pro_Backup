@@ -22659,3 +22659,8 @@
 2024-10-06 23:07:31,266   WARNING  obico.server_conn - Failed to capture jpeg - 500 Server Error: Internal Server Error for url: https://obico.snuffy2.com/api/v1/octo/pic/
 2024-10-06 23:07:31,503      INFO  obico.app - detected state change: Printing -> Operational
 2024-10-06 23:07:31,506      INFO  obico.app - print event: PrintDone (1728266693)
+2024-10-07 03:00:49,637   WARNING  obico.ws - WS Closed - None - None
+2024-10-07 03:01:07,120   WARNING  obico.ws - WS Closed - None - None
+2024-10-07 03:03:04,907   WARNING  obico.server_conn - Not connected to websocket server after 120s
+2024-10-07 03:03:04,908      INFO  obico.utils - Attempt 1 - backing off 0.188232 seconds: Not connected to websocket server after 120s
+2024-10-07 04:46:11,554   WARNING  obico.ws - WS Closed - None - None
