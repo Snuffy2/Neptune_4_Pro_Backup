@@ -759,3 +759,543 @@
 2024-12-14 11:58:49,121   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
 2024-12-14 11:58:49,128   WARNING  obico.ws - WS Closed - None - None
 2024-12-14 11:58:49,130   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 12:00:49,372   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 12:00:49,378   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 12:00:49,380   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 12:02:49,612   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 12:02:49,617   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 12:02:49,619   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 12:04:49,843   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 12:04:49,850   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 12:04:49,852   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 12:06:50,084   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 12:06:50,089   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 12:06:50,091   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 12:08:50,328   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 12:08:50,335   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 12:08:50,337   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 12:10:50,566   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 12:10:50,569   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 12:10:50,570   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 12:12:50,798   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 12:12:50,804   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 12:12:50,806   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 12:14:51,041   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 12:14:51,046   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 12:14:51,047   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 12:16:51,278   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 12:16:51,285   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 12:16:51,287   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 12:18:51,520   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 12:18:51,527   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 12:18:51,532   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 12:20:51,761   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 12:20:51,767   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 12:20:51,769   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 12:22:52,006   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 12:22:52,011   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 12:22:52,013   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 12:24:52,235   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 12:24:52,242   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 12:24:52,244   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 12:26:52,461   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 12:26:52,468   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 12:26:52,470   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 12:28:52,699   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 12:28:52,705   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 12:28:52,706   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 12:30:52,933   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 12:30:52,942   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 12:30:52,944   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 12:32:53,170   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 12:32:53,175   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 12:32:53,177   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 12:34:53,414   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 12:34:53,421   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 12:34:53,423   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 12:36:53,650   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 12:36:53,657   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 12:36:53,659   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 12:38:53,890   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 12:38:53,897   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 12:38:53,898   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 12:40:54,130   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 12:40:54,135   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 12:40:54,136   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 12:42:54,364   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 12:42:54,371   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 12:42:54,373   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 12:44:54,608   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 12:44:54,613   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 12:44:54,615   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 12:46:54,849   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 12:46:54,854   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 12:46:54,856   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 12:48:55,087   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 12:48:55,093   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 12:48:55,095   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 12:50:55,323   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 12:50:55,330   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 12:50:55,332   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 12:52:55,559   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 12:52:55,566   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 12:52:55,568   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 12:54:55,796   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 12:54:55,800   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 12:54:55,801   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 12:56:56,030   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 12:56:56,036   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 12:56:56,037   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 12:58:56,280   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 12:58:56,283   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 12:58:56,284   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 13:00:56,516   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 13:00:56,523   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 13:00:56,524   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 13:02:56,747   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 13:02:56,752   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 13:02:56,754   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 13:04:56,988   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 13:04:56,995   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 13:04:56,997   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 13:06:57,224   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 13:06:57,230   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 13:06:57,232   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 13:08:57,458   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 13:08:57,463   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 13:08:57,464   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 13:10:57,694   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 13:10:57,699   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 13:10:57,700   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 13:12:57,931   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 13:12:57,936   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 13:12:57,938   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 13:14:58,185   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 13:14:58,192   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 13:14:58,194   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 13:16:58,426   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 13:16:58,431   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 13:16:58,433   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 13:18:58,670   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 13:18:58,684   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 13:18:58,686   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 13:20:58,915   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 13:20:58,921   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 13:20:58,923   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 13:22:59,153   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 13:22:59,160   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 13:22:59,162   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 13:24:59,401   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 13:24:59,408   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 13:24:59,410   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 13:26:59,632   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 13:26:59,651   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 13:26:59,655   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 13:28:59,886   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 13:28:59,892   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 13:28:59,893   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 13:31:00,119   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 13:31:00,124   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 13:31:00,126   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 13:33:00,356   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 13:33:00,364   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 13:33:00,366   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 13:35:00,600   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 13:35:00,604   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 13:35:00,605   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 13:37:00,836   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 13:37:00,841   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 13:37:00,843   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 13:39:01,069   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 13:39:01,076   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 13:39:01,078   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 13:41:01,304   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 13:41:01,310   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 13:41:01,312   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 13:43:01,549   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 13:43:01,554   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 13:43:01,556   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 13:45:01,791   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 13:45:01,795   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 13:45:01,796   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 13:47:02,025   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 13:47:02,034   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 13:47:02,036   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 13:49:02,264   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 13:49:02,271   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 13:49:02,273   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 13:51:02,501   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 13:51:02,508   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 13:51:02,510   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 13:53:02,739   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 13:53:02,747   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 13:53:02,749   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 13:55:02,979   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 13:55:02,985   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 13:55:02,988   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 13:57:03,205   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 13:57:03,212   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 13:57:03,214   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 13:59:03,442   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 13:59:03,447   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 13:59:03,451   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 14:01:03,673   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 14:01:03,680   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 14:01:03,682   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 14:03:03,908   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 14:03:03,913   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 14:03:03,915   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 14:05:04,151   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 14:05:04,156   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 14:05:04,157   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 14:07:04,382   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 14:07:04,387   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 14:07:04,389   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 14:09:04,620   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 14:09:04,626   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 14:09:04,628   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 14:11:04,855   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 14:11:04,862   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 14:11:04,864   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 14:13:05,089   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 14:13:05,094   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 14:13:05,096   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 14:15:05,327   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 14:15:05,333   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 14:15:05,335   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 14:17:05,562   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 14:17:05,569   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 14:17:05,571   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 14:19:05,802   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 14:19:05,807   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 14:19:05,809   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 14:21:06,041   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 14:21:06,047   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 14:21:06,048   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 14:23:06,286   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 14:23:06,293   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 14:23:06,295   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 14:25:06,514   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 14:25:06,518   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 14:25:06,519   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 14:27:06,744   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 14:27:06,749   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 14:27:06,751   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 14:29:06,979   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 14:29:06,985   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 14:29:06,987   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 14:31:07,218   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 14:31:07,225   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 14:31:07,227   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 14:33:07,463   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 14:33:07,470   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 14:33:07,472   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 14:35:07,700   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 14:35:07,706   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 14:35:07,708   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 14:37:07,932   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 14:37:07,939   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 14:37:07,941   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 14:39:08,169   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 14:39:08,174   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 14:39:08,176   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 14:41:08,400   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 14:41:08,405   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 14:41:08,406   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 14:43:08,639   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 14:43:08,644   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 14:43:08,645   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 14:45:08,867   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 14:45:08,874   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 14:45:08,876   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 14:47:09,098   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 14:47:09,103   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 14:47:09,105   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 14:49:09,333   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 14:49:09,339   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 14:49:09,341   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 14:51:09,567   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 14:51:09,574   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 14:51:09,576   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 14:53:09,803   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 14:53:09,809   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 14:53:09,810   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 14:55:10,034   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 14:55:10,041   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 14:55:10,042   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 14:57:10,259   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 14:57:10,264   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 14:57:10,265   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 14:59:10,494   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 14:59:10,500   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 14:59:10,502   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 15:01:10,731   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 15:01:10,737   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 15:01:10,739   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 15:03:10,964   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 15:03:10,971   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 15:03:10,973   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 15:05:11,206   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 15:05:11,212   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 15:05:11,214   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 15:07:11,438   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 15:07:11,446   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 15:07:11,448   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 15:09:11,682   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 15:09:11,689   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 15:09:11,691   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 15:11:11,925   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 15:11:11,931   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 15:11:11,933   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 15:13:12,170   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 15:13:12,175   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 15:13:12,177   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 15:15:12,409   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 15:15:12,415   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 15:15:12,417   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 15:17:12,652   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 15:17:12,657   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 15:17:12,658   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 15:19:12,893   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 15:19:12,899   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 15:19:12,900   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 15:21:13,126   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 15:21:13,132   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 15:21:13,135   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 15:23:13,369   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 15:23:13,376   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 15:23:13,379   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 15:25:13,604   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 15:25:13,609   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 15:25:13,612   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 15:27:13,834   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 15:27:13,840   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 15:27:13,842   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 15:29:14,066   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 15:29:14,072   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 15:29:14,074   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 15:31:14,296   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 15:31:14,303   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 15:31:14,305   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 15:33:14,532   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 15:33:14,539   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 15:33:14,541   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 15:35:14,769   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 15:35:14,776   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 15:35:14,778   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 15:37:15,008   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 15:37:15,015   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 15:37:15,017   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 15:39:15,245   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 15:39:15,250   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 15:39:15,254   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 15:41:15,466   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 15:41:15,473   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 15:41:15,475   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 15:43:15,709   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 15:43:15,716   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 15:43:15,718   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 15:45:15,952   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 15:45:15,958   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 15:45:15,960   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 15:47:16,194   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 15:47:16,201   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 15:47:16,203   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 15:49:16,434   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 15:49:16,440   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 15:49:16,442   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 15:51:16,661   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 15:51:16,668   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 15:51:16,669   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 15:53:16,900   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 15:53:16,907   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 15:53:16,909   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 15:55:17,131   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 15:55:17,135   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 15:55:17,136   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 15:57:17,365   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 15:57:17,372   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 15:57:17,374   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 15:59:17,596   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 15:59:17,602   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 15:59:17,603   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 16:01:17,827   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 16:01:17,833   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 16:01:17,835   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 16:03:18,068   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 16:03:18,072   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 16:03:18,074   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 16:05:18,308   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 16:05:18,313   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 16:05:18,314   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 16:07:18,538   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 16:07:18,541   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 16:07:18,542   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 16:09:18,764   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 16:09:18,770   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 16:09:18,771   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 16:11:18,982   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 16:11:18,988   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 16:11:18,990   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 16:13:19,210   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 16:13:19,216   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 16:13:19,218   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 16:15:19,441   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 16:15:19,448   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 16:15:19,450   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 16:17:19,666   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 16:17:19,674   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 16:17:19,676   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 16:19:19,900   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 16:19:19,907   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 16:19:19,909   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 16:21:20,126   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 16:21:20,133   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 16:21:20,135   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 16:23:20,365   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 16:23:20,371   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 16:23:20,373   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 16:25:20,591   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 16:25:20,596   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 16:25:20,598   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 16:27:20,812   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 16:27:20,819   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 16:27:20,821   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 16:29:21,049   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 16:29:21,056   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 16:29:21,059   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 16:31:21,278   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 16:31:21,283   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 16:31:21,284   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 16:33:21,514   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 16:33:21,519   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 16:33:21,520   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 16:35:21,746   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 16:35:21,753   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 16:35:21,755   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 16:37:21,977   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 16:37:21,983   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 16:37:21,984   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 16:39:22,208   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 16:39:22,213   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 16:39:22,214   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 16:41:22,443   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 16:41:22,446   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 16:41:22,447   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 16:43:22,679   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 16:43:22,686   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 16:43:22,688   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 16:45:22,920   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 16:45:22,925   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 16:45:22,926   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 16:47:23,151   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 16:47:23,155   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 16:47:23,156   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 16:49:23,383   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 16:49:23,386   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 16:49:23,387   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 16:51:23,606   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 16:51:23,609   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 16:51:23,610   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 16:53:23,836   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 16:53:23,840   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 16:53:23,841   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 16:55:24,053   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 16:55:24,058   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 16:55:24,059   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 16:57:24,280   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 16:57:24,287   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 16:57:24,289   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 16:59:24,514   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 16:59:24,521   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 16:59:24,523   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 17:01:24,746   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 17:01:24,753   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 17:01:24,755   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 17:03:24,984   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 17:03:24,989   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 17:03:24,991   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 17:05:25,225   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 17:05:25,232   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 17:05:25,234   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 17:07:25,458   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 17:07:25,463   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 17:07:25,465   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 17:09:25,695   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 17:09:25,700   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 17:09:25,701   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 17:11:25,924   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 17:11:25,929   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 17:11:25,931   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 17:13:26,167   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 17:13:26,173   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 17:13:26,174   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 17:15:26,397   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 17:15:26,402   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 17:15:26,404   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 17:17:26,627   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 17:17:26,634   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 17:17:26,635   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 17:19:26,871   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 17:19:26,877   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 17:19:26,882   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 17:21:27,109   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 17:21:27,116   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 17:21:27,118   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 17:23:27,352   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 17:23:27,358   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 17:23:27,360   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 17:25:27,588   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 17:25:27,592   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 17:25:27,593   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 17:27:27,816   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 17:27:27,823   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 17:27:27,825   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 17:29:28,059   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 17:29:28,065   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 17:29:28,067   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 17:31:28,300   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 17:31:28,307   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 17:31:28,309   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 17:33:28,532   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 17:33:28,537   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 17:33:28,539   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 17:35:28,768   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 17:35:28,774   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 17:35:28,776   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 17:37:29,009   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 17:37:29,016   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 17:37:29,017   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 17:39:29,257   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 17:39:29,264   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 17:39:29,266   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 17:41:29,491   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 17:41:29,496   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 17:41:29,497   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 17:43:29,724   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 17:43:29,731   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 17:43:29,733   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 17:45:29,963   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 17:45:29,969   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 17:45:29,971   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 17:47:30,198   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 17:47:30,203   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 17:47:30,205   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 17:49:30,437   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 17:49:30,444   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 17:49:30,446   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 17:51:30,673   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 17:51:30,678   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 17:51:30,679   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 17:53:30,902   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 17:53:30,908   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 17:53:30,910   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 17:55:31,130   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 17:55:31,135   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 17:55:31,137   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 17:57:31,358   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 17:57:31,365   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 17:57:31,367   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
+2024-12-14 17:59:31,593   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-12-14 17:59:31,600   WARNING  obico.ws - WS Closed - None - None
+2024-12-14 17:59:31,603   WARNING  obico.app - event queue is full, dropping event Event(name='mr_disconnected', data={}, sender='moonrakerconn')
