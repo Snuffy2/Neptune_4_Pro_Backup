@@ -616,3 +616,20 @@
 2024-12-21 07:17:19,592   WARNING  obico.moonraker_conn - api key is unset, trying to fetch one
 2024-12-21 07:17:27,344   WARNING  obico.moonraker_conn - api key is unset, trying to fetch one
 2024-12-21 07:17:27,375      INFO  obico.moonraker_conn - connection is open
+2024-12-21 18:33:42,563   WARNING  obico.ws - WS Closed - 1001 - Server Shutdown
+2024-12-21 18:38:32,777      INFO  obico.app - moonraker-obico config:
+{'server': {'url': 'https://obico.snuffy2.com', 'auth_token': 'bbf4da100dcbbb0fa8ec'}, 'moonraker': {'host': '10.100.100.35', 'port': '7125'}, 'webcam': {'disable_video_streaming': 'False', 'target_fps': '25', 'snapshot_url': 'http://10.100.100.35/webcam/?action=snapshot', 'stream_url': 'http://10.100.100.35/webcam/?action=stream'}, 'logging': {'path': '/home/mks/printer_data/config/moonraker-obico.log', 'level': 'INFO'}, 'tunnel': {}}
+2024-12-21 18:38:32,790   WARNING  obico.moonraker_conn - api key is unset, trying to fetch one
+2024-12-21 18:38:33,396   WARNING  obico.moonraker_conn - api key is unset, trying to fetch one
+2024-12-21 18:38:34,171   WARNING  obico.moonraker_conn - api key is unset, trying to fetch one
+2024-12-21 18:38:34,533   WARNING  obico.moonraker_conn - api key is unset, trying to fetch one
+2024-12-21 18:38:39,108   WARNING  obico.moonraker_conn - api key is unset, trying to fetch one
+2024-12-21 18:38:39,206      INFO  obico.moonraker_conn - connection is open
+2024-12-21 19:00:23,934      INFO  obico.app - moonraker-obico config:
+{'server': {'url': 'https://obico.snuffy2.com', 'auth_token': 'bbf4da100dcbbb0fa8ec'}, 'moonraker': {'host': '10.100.100.35', 'port': '7125'}, 'webcam': {'disable_video_streaming': 'False', 'target_fps': '25', 'snapshot_url': 'http://10.100.100.35/webcam/?action=snapshot', 'stream_url': 'http://10.100.100.35/webcam/?action=stream'}, 'logging': {'path': '/home/mks/printer_data/config/moonraker-obico.log', 'level': 'INFO'}, 'tunnel': {}}
+2024-12-21 19:00:23,945   WARNING  obico.moonraker_conn - api key is unset, trying to fetch one
+2024-12-21 19:00:24,675   WARNING  obico.moonraker_conn - api key is unset, trying to fetch one
+2024-12-21 19:00:26,097   WARNING  obico.moonraker_conn - api key is unset, trying to fetch one
+2024-12-21 19:00:26,563   WARNING  obico.moonraker_conn - api key is unset, trying to fetch one
+2024-12-21 19:00:29,860   WARNING  obico.moonraker_conn - api key is unset, trying to fetch one
+2024-12-21 19:00:29,958      INFO  obico.moonraker_conn - connection is open
