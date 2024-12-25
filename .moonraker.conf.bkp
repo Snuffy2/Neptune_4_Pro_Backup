@@ -46,6 +46,10 @@ duplicatelastframe = 30
 previewimage = True
 saveframes = False
 
+[spoolman]
+server = http://10.100.200.50:7912
+sync_rate = 5
+
 [update_manager]
 channel = dev
 refresh_interval = 168
@@ -100,4 +104,14 @@ primary_branch = main
 path = ~/moonraker-timelapse
 origin = https://github.com/mainsail-crew/moonraker-timelapse.git
 managed_services = klipper moonraker
+
+[update_manager moonraker-obico]
+type = git_repo
+path = /home/mks/moonraker-obico
+origin = https://github.com/TheSpaghettiDetective/moonraker-obico.git
+env = /home/mks/moonraker-obico/../moonraker-obico-env/bin/python
+requirements = requirements.txt
+install_script = install.sh
+managed_services = 
+	moonraker-obico
 
