@@ -115,3 +115,11 @@ install_script = install.sh
 managed_services = 
 	moonraker-obico
 
+[update_manager display]
+type = git_repo
+primary_branch = main
+path = /home/mks/display_connector
+virtualenv = /home/mks/display_connector/venv
+requirements = requirements.txt
+origin = https://github.com/OpenNeptune3D/display_connector.git
+
