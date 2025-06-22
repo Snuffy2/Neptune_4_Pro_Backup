@@ -47,10 +47,6 @@ duplicatelastframe = 30
 previewimage = True
 saveframes = False
 
-[spoolman]
-server = http://10.100.200.50:7912
-sync_rate = 5
-
 [update_manager]
 channel = dev
 refresh_interval = 168
