@@ -7,6 +7,7 @@ klippy_uds_address: /home/mks/printer_data/comms/klippy.sock
 trusted_clients:
     10.10.0.0/16
     10.0.0.0/8
+    100.64.0.0/10
     127.0.0.0/8
     169.254.0.0/16
     172.16.0.0/12
@@ -28,6 +29,48 @@ enable_object_processing: True
 
 [history]
 
+[timelapse]
+output_path: ~/printer_data/timelapse/
+frame_path: /tmp/timelapse/printer
+enabled: True
+mode: layermacro
+snapshoturl: http://localhost/webcam/?action=snapshot
+#gcode_verbose: True
+parkhead: True
+parkpos: custom
+park_custom_pos_x: 235
+park_custom_pos_y: 160
+#park_custom_pos_dz: 0.0
+#park_travel_speed: 100
+#park_retract_speed: 15
+#park_extrude_speed: 15
+#park_retract_distance: 1.0
+#park_extrude_distance: 1.0
+#hyperlapse_cycle: 30
+autorender: True
+constant_rate_factor: 20
+output_framerate: 30
+#pixelformat: yuv420p
+#time_format_code: %Y%m%d_%H%M
+#extraoutputparams:
+variable_fps: False
+#targetlength: 10
+#variable_fps_min: 5
+#variable_fps_max: 60
+#flip_x: True
+#flip_y: True
+duplicatelastframe: 30
+previewimage: True
+saveframes: False
+#wget_skip_cert_check: False
+
+#[spoolman]
+#server: http://10.100.200.50:7912
+#   URL to the Spoolman instance. This parameter must be provided.
+#sync_rate: 5
+#   The interval, in seconds, between sync requests with the
+#   Spoolman server.  The default is 5.
+
 [update_manager]
 channel: dev
 refresh_interval: 168
@@ -45,34 +88,49 @@ channel: stable
 repo: fluidd-core/fluidd
 path: ~/fluidd
 
-[update_manager Klipper-Adaptive-Meshing-Purging]
- type: git_repo
- channel: dev
- path: ~/Klipper-Adaptive-Meshing-Purging
- origin: https://github.com/kyleisah/Klipper-Adaptive-Meshing-Purging.git
- managed_services: klipper
- primary_branch: main
-
-
-[update_manager mainsail-config]
-type: git_repo
-primary_branch: master
-path: ~/mainsail-config
-origin: https://github.com/mainsail-crew/mainsail-config.git
-managed_services: klipper
-
 [update_manager mainsail]
 type: web
 channel: stable
 repo: mainsail-crew/mainsail
 path: ~/mainsail
 
+[update_manager Klipper-Adaptive-Meshing-Purging]
+type: git_repo
+channel: dev
+path: ~/Klipper-Adaptive-Meshing-Purging
+origin: https://github.com/kyleisah/Klipper-Adaptive-Meshing-Purging.git
+managed_services: klipper
+primary_branch: main
+
 [update_manager mobileraker]
 type: git_repo
-path: /home/mks/mobileraker_companion
+path: ~/mobileraker_companion
 origin: https://github.com/Clon1998/mobileraker_companion.git
 primary_branch:main
 managed_services: mobileraker
-env: /home/mks/mobileraker-env/bin/python
+env: ~/mobileraker-env/bin/python
 requirements: scripts/mobileraker-requirements.txt
-install_script: scripts/install-mobileraker-companion.sh
+install_script: scripts/install.sh
+
+[update_manager OpenNept4une]
+type: git_repo
+primary_branch: main
+path: /home/mks/OpenNept4une
+is_system_service: False
+origin: https://github.com/OpenNeptune3D/OpenNept4une.git
+
+[update_manager timelapse]
+type: git_repo
+primary_branch: main
+path: ~/moonraker-timelapse
+origin: https://github.com/mainsail-crew/moonraker-timelapse.git
+managed_services: klipper moonraker
+[include moonraker-obico-update.cfg]
+
+[update_manager display]
+type: git_repo
+primary_branch: main
+path: /home/mks/display_connector
+virtualenv: /home/mks/display_connector/venv
+requirements: requirements.txt
+origin: https://github.com/OpenNeptune3D/display_connector.git
