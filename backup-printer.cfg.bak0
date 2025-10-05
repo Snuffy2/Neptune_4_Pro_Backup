@@ -1,5 +1,3 @@
-# Auto-generated on 2025-10-05T13:53:57 | printer_model: n4pro | current: 1.2
-
 #----------------------------------------------------------------------------
 #      ____                _  __         __  ____              
 #     / __ \___  ___ ___  / |/ /__ ___  / /_/ / /__ _____  ___ 
@@ -62,12 +60,12 @@ timeout: 2100                  ; 35min idle timeout (when not paused or printing
 
 [gcode_macro PRINT_START]   
 variable_small_print: False
-variable_outer_bed_force_activation_temp: 80
+variable_outer_bed_force_activation_temp: 90
 variable_force_outer_bed_heater: False
 
 gcode:
     Frame_Light_ON
-    # Part_Light_ON
+    #Part_Light_ON
     G92 E0 
     G90                       ; Use absolute coordinates
     BED_MESH_CLEAR    
@@ -130,8 +128,8 @@ gcode:
        
 [gcode_macro PRINT_END]
 gcode:
-    Frame_Light_OFF
-    Part_Light_OFF
+    #Frame_Light_OFF
+    #Part_Light_OFF
     M400                    ; wait for buffer to clear
     TURN_OFF_HEATERS
     G92 E0                  ; zero the extruder
@@ -156,36 +154,32 @@ gcode:
 rename_existing: BASE_PAUSE
 gcode:
   PAUSE_TUNE
-  {% set z = params.Z|default(30)|int %}
+  {% set z = params.Z|default(30)|int %}                                                   ; z hop amount 30mm
   {% if printer['pause_resume'].is_paused|int == 0 %}
-      SET_GCODE_VARIABLE MACRO=RESUME VARIABLE=etemp VALUE={printer['extruder'].target|default(220)}
-      # Store current extruder temperature before cooling
-      SET_GCODE_VARIABLE MACRO=LOAD_FILAMENT VARIABLE=prev_temp VALUE={printer['extruder'].target|default(220)}
-      SET_GCODE_VARIABLE MACRO=UNLOAD_FILAMENT VARIABLE=prev_temp VALUE={printer['extruder'].target|default(220)}
-      # Store Z-hop value for RESUME
-      SET_GCODE_VARIABLE MACRO=RESUME VARIABLE=zhop VALUE={z}
-      SET_FILAMENT_SENSOR SENSOR=filament_sensor ENABLE=0
-      SAVE_GCODE_STATE NAME=PAUSE
-      BASE_PAUSE
-      G91
-      {% if (printer.gcode_move.position.z + z) < printer.toolhead.axis_maximum.z %}
-          G1 E-2 F2700
-          G1 X3 Y3 F3000
-          G1 E-2 Z{z} F1600
-          SAVE_GCODE_STATE NAME=ZLIFT
+      SET_GCODE_VARIABLE MACRO=RESUME VARIABLE=zhop VALUE={z}                              ; set z hop variable for reference in resume macro
+      SET_GCODE_VARIABLE MACRO=RESUME VARIABLE=etemp VALUE={printer['extruder'].target}    ; set hotend temp variable for reference in resume macro
+      SET_FILAMENT_SENSOR SENSOR=filament_sensor ENABLE=0                                  ; disable filament sensor
+      SAVE_GCODE_STATE NAME=PAUSE                                                          ; save the current print position for resume, before z-hop
+      BASE_PAUSE                                                                           ; pause print
+      G91                                                                           
+      {% if (printer.gcode_move.position.z + z) < printer.toolhead.axis_maximum.z %}       ; check that zhop doesn't exceed z max
+          G1 E-2 F2700                                                                     ; Retract 2mm
+          G1 X3 Y3 F3000                                                                   ; Wipe out 
+          G1 E-2 Z{z} F1600                                                                ; Retract 2mm more & raise z by z hop amount 
+          SAVE_GCODE_STATE NAME=ZLIFT                                                      ; save the current print position for resume, after z-hop
       {% else %}
-          { action_respond_info("Pause zhop exceeds maximum Z height.") }
+          { action_respond_info("Pause zhop exceeds maximum Z height.") }                  ; if z max is exceeded, show message and set zhop value for resume to 0
           SET_GCODE_VARIABLE MACRO=RESUME VARIABLE=zhop VALUE=0
-          G1 E-2 F2700
-          G1 X3 Y3 F3000
-          G1 E-2 F1600
+          G1 E-2 F2700                                                                     ; Retract 2mm
+          G1 X3 Y3 F3000                                                                   ; Wipe out 
+          G1 E-2 F1600                                                                     ; Retract 2mm more
           SAVE_GCODE_STATE NAME=ZLIFT
       {% endif %}
       G90
-      G1 X{printer.toolhead.axis_minimum.x+5} Y{printer.toolhead.axis_maximum.y-5} F6000
-      SAVE_GCODE_STATE NAME=PAUSEPARK
-      SET_HEATER_TEMPERATURE HEATER=extruder TARGET=175
-      SET_IDLE_TIMEOUT TIMEOUT=43200
+      G1 X{printer.toolhead.axis_minimum.x+5} Y{printer.toolhead.axis_maximum.y-5} F6000   ; park toolhead at the rear left of the bed
+      SAVE_GCODE_STATE NAME=PAUSEPARK                                                      ; save the parked position
+      SET_HEATER_TEMPERATURE HEATER=extruder TARGET=160                                    ; cool down hotend to no-drip temp
+      SET_IDLE_TIMEOUT TIMEOUT=43200                                                       ; set idle timeout to 12 hours (in seconds)
   {% endif %}
 
 [gcode_macro RESUME]
@@ -235,11 +229,10 @@ gcode:
 [filament_switch_sensor filament_sensor]
 pause_on_runout: True
 insert_gcode:
-  M117 Insert Detected
+    M117 Insert Detected
 runout_gcode:
-  M117 Runout Detected
-  SET_GCODE_VARIABLE MACRO=UNLOAD_FILAMENT VARIABLE=prev_temp VALUE={printer.extruder.target|int}
-  UNLOAD_FILAMENT
+    M117 Runout Detected
+    UNLOAD_FILAMENT
 event_delay: 3.0
 pause_delay: 1.0
 switch_pin: PA12
@@ -256,53 +249,34 @@ gcode:
   UNLOAD_FILAMENT
 
 [gcode_macro LOAD_FILAMENT]
-variable_prev_temp: 0
-variable_load_distance: 25
-variable_purge_distance: 75
+variable_load_distance:  25
+variable_purge_distance:  30
 gcode:
-  {% 
-    # pick the first non-zero value: prev_temp → current target → 220 
-    set target_temp = prev_temp|int or printer.extruder.target|round(0) or 220 
-  %}
-  {% if prev_temp|int == 0 and printer.extruder.target|round(0) == 0 %}
-    RESPOND PREFIX="LOAD_FILAMENT" MSG="No temp set — defaulting to {target_temp}°C"
-  {% endif %}
-  SET_HEATER_TEMPERATURE HEATER=extruder TARGET={target_temp}
-  TEMPERATURE_WAIT SENSOR=extruder MINIMUM={target_temp - 4} MAXIMUM={target_temp + 40}
+  SET_HEATER_TEMPERATURE HEATER=extruder TARGET=200
+  TEMPERATURE_WAIT SENSOR=extruder MINIMUM={200-4} MAXIMUM={200+40}
   {% set speed = params.SPEED|default(300) %}
-  {% set max_vel = printer.configfile.settings.extruder.max_extrude_only_velocity * 30 %}
+  {% set max_velocity = printer.configfile.settings['extruder'].max_extrude_only_velocity  * 30 %}
   SAVE_GCODE_STATE NAME=load_state
   G91
   G92 E0
-  G1 E{load_distance} F{max_vel}
-  G1 E{purge_distance} F{speed}
+  G1 E{load_distance} F{max_velocity}          ; fast-load
+  G1 E{purge_distance} F{speed}                ; purge
   RESTORE_GCODE_STATE NAME=load_state
 
 [gcode_macro UNLOAD_FILAMENT]
-variable_prev_temp: 0
-variable_unload_distance: 75
-variable_purge_distance: 15
+variable_unload_distance:  55
+variable_purge_distance:  15
 gcode:
-  {% 
-    set target_temp = prev_temp|int or printer.extruder.target|round(0) or 220 
-  %}
-  {% if prev_temp|int == 0 and printer.extruder.target|round(0) == 0 %}
-    RESPOND PREFIX="UNLOAD_FILAMENT" MSG="No temp set — defaulting to {target_temp}°C"
-  {% endif %}
-  SET_HEATER_TEMPERATURE HEATER=extruder TARGET={target_temp}
-  TEMPERATURE_WAIT SENSOR=extruder MINIMUM={target_temp - 4} MAXIMUM={target_temp + 40}
+  SET_HEATER_TEMPERATURE HEATER=extruder TARGET=200
+  TEMPERATURE_WAIT SENSOR=extruder MINIMUM={200-4} MAXIMUM={200+40}
   {% set speed = params.SPEED|default(300) %}
-  {% set max_vel = printer.configfile.settings.extruder.max_extrude_only_velocity * 30 %}
+  {% set max_velocity = printer.configfile.settings['extruder'].max_extrude_only_velocity  * 30 %}
   SAVE_GCODE_STATE NAME=unload_state
   G91
   G92 E0
-  G1 E{purge_distance} F{speed}
-  G1 E-{unload_distance} F{max_vel}
+  G1 E{purge_distance} F{speed}                ; purge
+  G1 E-{unload_distance} F{max_velocity}       ; fast-unload
   RESTORE_GCODE_STATE NAME=unload_state
-  {% if printer['pause_resume'].is_paused|int == 1 %}
-    G4 P3000                      ; wait 3 s before cooling
-    SET_HEATER_TEMPERATURE HEATER=extruder TARGET=175
-  {% endif %}
 
 #############################################################################
 #   X/Y/Z Stepper Config
@@ -527,7 +501,7 @@ gcode:
 pin:^PA11
 x_offset: -24.25
 y_offset: 20.45
-# z_offset = 0.0
+#z_offset = 0.0
 speed: 6.0
 samples: 3
 samples_result: median 
@@ -679,18 +653,11 @@ screw_thread: CW-M4
 
 [gcode_macro Bed_Level_Screws_Tune]
 gcode:
-    BED_MESH_CLEAR
-    {% set current = printer.heater_bed.target|round(0) %}
-    {% set target = current or 60 %}
-    {% if current == 0 %}
-    RESPOND PREFIX="Bed_Level_Screws_Tune" MSG="No bed target, heating to {target} °C"
-    SET_BED_TEMPERATURE TARGET={target}
-    {% else %}
-    RESPOND PREFIX="Bed_Level_Screws_Tune" MSG="Waiting for bed to reach {target} °C"
-    {% endif %}
-    BED_TEMPERATURE_WAIT MINIMUM={target - 2} MAXIMUM={target + 5}
-    CG28
-    SCREWS_TILT_CALCULATE
+      BED_MESH_CLEAR
+      SET_BED_TEMPERATURE TARGET=60
+      BED_TEMPERATURE_WAIT MINIMUM=58 MAXIMUM=65
+      CG28
+      SCREWS_TILT_CALCULATE
 
 [gcode_macro Calibrate_Probe_Z_Offset]
 gcode:
@@ -769,6 +736,7 @@ shaper_freq_y: 32.4
 #############################################################################
 
 [include moonraker_obico_macros.cfg]
+
 #*# <---------------------- SAVE_CONFIG ---------------------->
 #*# DO NOT EDIT THIS BLOCK OR BELOW. The contents are auto-generated.
 #*#
